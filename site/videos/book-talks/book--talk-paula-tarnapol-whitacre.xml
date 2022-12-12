@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f46b</objectGroupId>
+	<objectId>f46b934f-dfd4-c012-12bf-c7422e90a05a</objectId>
+	<file-name>book--talk-paula-tarnapol-whitacre.xml</file-name>
+	<folder-name/>
+	<internal-name>Book Talk  Paula Whitacre</internal-name>
+	<title_s tokenized="true">Book Talk with Paula Tarnapol Whitacre</title_s>
+	<summary_s>Book talk on "A Civil LIfe in an Uncivil Time"</summary_s>
+	<format_s>video</format_s>
+	<featured_b>false</featured_b>
+	<channels_o>	<item>	<key>book-talks</key>
+	<value_smv>Book Talks</value_smv>
+	</item></channels_o>
+	<video_o>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Book Talk with Paula Tarnapol Whitacre.m3u8</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Book Talk with Paula Tarnapol Whitacre.mpd</url>
+	</item></video_o>
+	<thumbnail_s>/static-assets/images/videos/f46b934f-dfd4-c012-12bf-c7422e90a05a/bookTalkPaulaWhitacre.jpg</thumbnail_s>
+	<description_html>&lt;p&gt;View book talk with&amp;nbsp; Paula Whitacre, author of A Civil Life in an Uncivil Time: Julia Wilbur's Struggle for Purpose.&amp;nbsp; Whitacre&amp;rsquo;s presentation will focus on the experiences of Julia Wilbur, an abolitionist.&lt;/p&gt;</description_html>
+	<createdDate>2022-06-08T18:25:26.290Z</createdDate>
+	<createdDate_dt>2022-06-08T18:25:26.290Z</createdDate_dt>
+	<lastModifiedDate>2022-06-08T18:25:26.290Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-06-08T18:25:26.290Z</lastModifiedDate_dt>
+	<date_dt>2022-06-08T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

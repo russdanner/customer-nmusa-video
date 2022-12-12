@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>e888</objectGroupId>
+	<objectId>e8884d5f-4a1c-9711-081e-06524519b363</objectId>
+	<internal-name>Curator Ep04 Davy Crockett</internal-name>
+	<title_s tokenized="true">Episode 4: Davy Crockett</title_s>
+	<file-name>davy-crockett.xml</file-name>
+	<folder-name/>
+	<summary_s>Davy Crockett story</summary_s>
+	<featured_b>false</featured_b>
+	<format_s>video</format_s>
+	<channels_o>	<item>	<key>curators-corner</key>
+	<value_smv>Curator's Corner</value_smv>
+	</item></channels_o>
+	<thumbnail_s>/static-assets/images/videos/e8884d5f-4a1c-9711-081e-06524519b363/cc-ep4_Davy-Crockett-410x363.jpg</thumbnail_s>
+	<video_o>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Davy-Crockett-Curators-Corner-Ep-04-USARMY.m3u8</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Davy-Crockett-Curators-Corner-Ep-04-USARMY.mpd</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Davy-Crockett-Curators-Corner-Ep-04-USARMY_audio.mp3</url>
+	</item></video_o>
+	<description_html>&lt;p&gt;Learn about the fascinating Davy Crockett Nuclear Weapons System. In an effort to combat Soviet forces during the Cold War, the Army developed for the first time, a portable nuclear weapon known as the &amp;ldquo;Davy Crockett.&amp;rdquo; A prototype of the &amp;ldquo;Davy Crockett&amp;rdquo; was developed in 1958, then approved in 1961. After testing, the Army deployed the first Davy Crockett systems with armor and infantry battalions. Although the Davy Crockett was never used in combat, for 10 years, Soldiers were equipped with these systems in Guam, Hawaii, Okinawa, and South Korea. In 1971, it was fully retired from service. The development and production of this weapon represented the Army&amp;rsquo;s response in fighting the Soviet army on the nuclear battlefield&amp;mdash;a real threat that shaped our military policy after WWII.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description_html>
+	<createdDate>2022-06-07T16:33:52.246Z</createdDate>
+	<createdDate_dt>2022-06-07T16:33:52.246Z</createdDate_dt>
+	<lastModifiedDate>2022-08-24T16:20:12.023Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-08-24T16:20:12.023Z</lastModifiedDate_dt>
+	<date_dt>2022-06-25T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

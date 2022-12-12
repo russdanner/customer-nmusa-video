@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>fb8e</objectGroupId>
+	<objectId>fb8ec1ef-fffd-63b3-9085-4dc48eb7e2e3</objectId>
+	<internal-name>Battle Brief US Color Troops</internal-name>
+	<title_s tokenized="true">Battle Brief: The US Colored Troops at New Market Height, 1864</title_s>
+	<file-name>battle-brief-us-color-troops.xml</file-name>
+	<folder-name/>
+	<summary_s>US Colored Troops at New Market</summary_s>
+	<featured_b>false</featured_b>
+	<format_s>video</format_s>
+	<channels_o>	<item>	<key>battle-briefs</key>
+	<value_smv>Battle Briefs</value_smv>
+	</item></channels_o>
+	<video_o>	<item>	<url>/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Battle Brief_ The US Colored Troops at New Mark.m3u8</url>
+	</item>	<item>	<url>/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Battle Brief_ The US Colored Troops at New Mark.mpd</url>
+	</item></video_o>
+	<thumbnail_s>/static-assets/images/videos/fb8ec1ef-fffd-63b3-9085-4dc48eb7e2e3/PnE-ThumbNail_NovBatBrf-2021-01.png</thumbnail_s>
+	<description_html>&lt;p&gt;Description&lt;/p&gt;</description_html>
+	<createdDate>2022-05-27T20:49:03.759Z</createdDate>
+	<createdDate_dt>2022-05-27T20:49:03.759Z</createdDate_dt>
+	<lastModifiedDate>2022-06-08T14:46:59.571Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-06-08T14:46:59.571Z</lastModifiedDate_dt>
+	<date_dt>2022-05-27T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

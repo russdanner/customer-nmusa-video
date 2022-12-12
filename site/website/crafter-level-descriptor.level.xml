@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/level-descriptor</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>750f</objectGroupId>
+	<objectId>750f18d6-ff73-72da-c9de-3edbe426e84c</objectId>
+	<file-name>crafter-level-descriptor.level.xml</file-name>
+	<folder-name/>
+	<createdDate>2017-10-9T16:52:48.000Z</createdDate>
+	<createdDate_dt>2017-10-9T16:52:48.000Z</createdDate_dt>
+	<lastModifiedDate>2022-12-09T00:00:36.883Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-12-09T00:00:36.883Z</lastModifiedDate_dt>
+	<siteLogo>/static-assets/images/crafer-video-logo-dark.svg</siteLogo>
+	<logoLink_s>https://www.thenmusa.org/</logoLink_s>
+	<homeText_s>Video Library</homeText_s>
+	<homeLink_s>/</homeLink_s>
+  <favicon_s>/static-assets/images/crafer-video-logo-dark.svg</favicon_s>
+	<siteTitle_s>Museum Video Library</siteTitle_s>
+	<logoLinkopeninnewtab_b>false</logoLinkopeninnewtab_b>
+</component>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>9ecc</objectGroupId>
+	<objectId>9ecc2e2f-e81a-947b-54b7-7b28901e0928</objectId>
+	<file-name>k9-veteran-stories.xml</file-name>
+	<folder-name/>
+	<internal-name>Curator Ep06 K9 Veteran Stories</internal-name>
+	<title_s tokenized="true">Episode 6: K9 Veteran Stories</title_s>
+	<featured_b>false</featured_b>
+	<summary_s>Video of K9 Veteran Stories</summary_s>
+	<format_s>video</format_s>
+	<channels_o>	<item>	<key>curators-corner</key>
+	<value_smv>Curator's Corner</value_smv>
+	</item></channels_o>
+	<video_o>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/K9_Veteran_Stories_Curators_Corner_Episode_06.m3u8</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/K9_Veteran_Stories_Curators_Corner_Episode_06.mpd</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/K9_Veteran_Stories_Curators_Corner_Episode_06_audio.mp3</url>
+	</item></video_o>
+	<thumbnail_s>/static-assets/images/videos/9ecc2e2f-e81a-947b-54b7-7b28901e0928/cc-ep6_k9stories-410x363.jpg</thumbnail_s>
+	<description_html>&lt;p&gt;Military working dogs have been part of every conflict since World War II. With their acute sense of smell and training, these Army dogs can detect threats such as snipers, mines, gas attacks and then protect Soldiers and civilians by alerting their handlers of the danger. Military working dogs and their Soldier handlers are a team and often form a close bond. The Army recognizes the unique connection between a Soldier and their working dog and in 2000, a law was passed allowing Soldiers to adopt their working dog partner when the dog is retired from service. Explore select working-dog artifacts and Soldier stories shared at the Museum to learn more about their service.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description_html>
+	<createdDate>2022-06-07T16:42:33.468Z</createdDate>
+	<createdDate_dt>2022-06-07T16:42:33.468Z</createdDate_dt>
+	<lastModifiedDate>2022-08-25T20:54:30.218Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-08-25T20:54:30.218Z</lastModifiedDate_dt>
+	<date_dt>2022-06-23T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>cf97</objectGroupId>
+	<objectId>cf976850-046a-18e0-86df-2df5dad5c283</objectId>
+	<format_s>video</format_s>
+	<channels_o>	<item>	<key>curators-corner</key>
+	<value_smv>Curator's Corner</value_smv>
+	</item></channels_o>
+	<thumbnail_s>/static-assets/images/videos/cf976850-046a-18e0-86df-2df5dad5c283/CuratorsCorner_ep14_slate_angel.jpg</thumbnail_s>
+	<video_o>	<item>	<url>/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Flight93_Slate_Angel_Curators_Corner_Episode_14.m3u8</url>
+	</item>	<item>	<url>/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Flight93_Slate_Angel_Curators_Corner_Episode_14.mpd</url>
+	</item>	<item>	<url>/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Flight93_Slate_Angel_Curators_Corner_Episode_14_audio.mp3</url>
+	</item></video_o>
+	<internal-name>Curator Ep14 Flight 93 Slate Angel</internal-name>
+	<title_s tokenized="true">Episode 14 : Flight 93 Slate Angel</title_s>
+	<summary_s>In this episode, learn more about the Soldier story of Billy Cashman and how Flight 93’s impact site at Shanksville, Pa. transformed to honoring the victims within hours after its crash on September 11, 2001.</summary_s>
+	<file-name>flight-93-slate-angel.xml</file-name>
+	<folder-name/>
+	<featured_b>false</featured_b>
+	<description_html>&lt;p&gt;Within hours of Flight 93's crash on September 11, 2001, the impact site at Shanksville, Pa., transformed into a memorial with tributes honoring the victims. Forty slate angels were left anonymously to recognize the 40 people on board, one of which was a former Army paratrooper, Pfc. William Cashman, who sat in seat 15D.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;William "Billy" Joseph Cashman was born on March 6, 1941. He was drafted into the U.S. Army on November 1961, serving as a paratrooper in the 101st Airborne Division before transferring to the U.S. Army Reserves in 1962 and serving honorably for another five years. Following his time in the Army, Cashman spent 40 years as an ironworker with Metallic Lathers Ironworkers Local 46. Coincidentally, his construction work included an iconic New York City building &amp;mdash; the World Trade Center.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Cashman was tall, soft-spoken and loved to stay active, especially hiking in the outdoors. On September 11, 2001, a 60-year-old Cashman was traveling aboard United Airlines Flight 93 to visit Yosemite National Park for a hiking trip with a long-time friend when the plane was hijacked and crashed into that open field in Pennsylvania.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description_html>
+	<createdDate>2022-09-09T18:21:06.581Z</createdDate>
+	<createdDate_dt>2022-09-09T18:21:06.581Z</createdDate_dt>
+	<lastModifiedDate>2022-09-09T18:42:30.560Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-09-09T18:42:30.560Z</lastModifiedDate_dt>
+	<date_dt>2022-06-15T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

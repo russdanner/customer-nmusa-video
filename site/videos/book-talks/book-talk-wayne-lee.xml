@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>aed7</objectGroupId>
+	<objectId>aed7d6e7-56c2-0037-c500-deedc92edab8</objectId>
+	<video_o>	<item>	<url>/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Book-Talk-The-Other-Face-of-Battle-Wayne-L1.m3u8</url>
+	</item>	<item>	<url>/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Book-Talk-The-Other-Face-of-Battle-Wayne-L1.mpd</url>
+	</item>	<item>	<url>/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Book-Talk-The-Other-Face-of-Battle-Wayne-L1_audio.mp3</url>
+	</item></video_o>
+	<thumbnail_s>/static-assets/images/videos/aed7d6e7-56c2-0037-c500-deedc92edab8/bookTalkWayneLee.jpg</thumbnail_s>
+	<internal-name>Book Talk Wayne Lee</internal-name>
+	<title_s tokenized="true">Book Talk "The Other Face of Battle"</title_s>
+	<file-name>book-talk-wayne-lee.xml</file-name>
+	<folder-name/>
+	<summary_s>Talk with  co authors Wayne Lee, Anthony Carlson, David Preston, &amp; David Silbey</summary_s>
+	<featured_b>false</featured_b>
+	<format_s>video</format_s>
+	<channels_o>	<item>	<key>book-talks</key>
+	<value_smv>Book Talks</value_smv>
+	</item></channels_o>
+	<description_html>&lt;p&gt;&amp;ldquo;The Other Face of Battle: America's Forgotten Wars and the Experience of Combat,&amp;rdquo; co-authored by historians Wayne Lee, David Preston, Anthony Carlson, and David Sibley, illuminates the American experience of fighting in "irregular" and "intercultural" wars.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description_html>
+	<createdDate>2022-06-08T19:02:28.638Z</createdDate>
+	<createdDate_dt>2022-06-08T19:02:28.638Z</createdDate_dt>
+	<lastModifiedDate>2022-08-24T20:28:31.808Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-08-24T20:28:31.808Z</lastModifiedDate_dt>
+	<date_dt>2022-06-08T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

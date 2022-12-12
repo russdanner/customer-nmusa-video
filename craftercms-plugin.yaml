@@ -1,0 +1,94 @@
+# This file describes a plugin for use in Crafter CMS
+
+# The version of the format for this file
+descriptorVersion: 2
+
+# Describe the plugin
+plugin:
+  type: blueprint
+  id: org.craftercms.blueprint.videoCenter
+  name: Video Center
+  tags:
+    - blueprint
+    - video center
+  version:
+    major: 1
+    minor: 1
+    patch: 36
+  description: |
+    Video Center webapp built with React atop Crafter CMS that is backed by YouTube, AWS Media Service, or Box.
+  website:
+    name: Video Center
+    url: https://github.com/craftercms/video-center-blueprint
+  media:
+    screenshots:
+      - title: Home page
+        description: Screenshot of the home page
+        url: https://raw.githubusercontent.com/craftercms/video-center-blueprint/master/static-assets/images/screenshots/vc1.png
+      - title: Featured videos page
+        description: Screenshot of the featured videos page
+        url: https://raw.githubusercontent.com/craftercms/video-center-blueprint/master/static-assets/images/screenshots/vc2.png
+      - title: Player page
+        description: Screenshot of the player page
+        url: https://raw.githubusercontent.com/craftercms/video-center-blueprint/master/static-assets/images/screenshots/vc3.png
+      - title: Search page
+        description: Screenshot of the search page
+        url: https://raw.githubusercontent.com/craftercms/video-center-blueprint/master/static-assets/images/screenshots/vc4.png
+  developer:
+    company:
+      name: Crafter Software
+      email: info@craftersoftware.com
+      url: https://craftersoftware.com
+  build:
+    id: c3d2a5444e6a24b5e0481d6ba87901d0b02716c8
+    date: 2019-03-18T00:00:00Z
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+  crafterCmsVersions:
+    - major: 3
+      minor: 1
+      patch: 6
+    - major: 3
+      minor: 1
+      patch: 7
+    - major: 3
+      minor: 1
+      patch: 8
+    - major: 3
+      minor: 1
+      patch: 9
+    - major: 3
+      minor: 1
+      patch: 10
+    - major: 3
+      minor: 1
+      patch: 11
+    - major: 3
+      minor: 1
+      patch: 12
+    - major: 3
+      minor: 1
+      patch: 13
+    - major: 3
+      minor: 1
+      patch: 14
+    - major: 3
+      minor: 1
+      patch: 15
+    - major: 3
+      minor: 1
+      patch: 16
+    - major: 3
+      minor: 1
+      patch: 17
+    - major: 3
+      minor: 1
+      patch: 18
+    - major: 3
+      minor: 1
+      patch: 19
+  crafterCmsEditions:
+    - community
+    - enterprise
+  searchEngine: Elasticsearch

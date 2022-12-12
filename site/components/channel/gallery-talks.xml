@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-channel</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required>false</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>50f7</objectGroupId>
+	<objectId>50f7def6-d0fb-7288-9746-6413ee965b39</objectId>
+	<internal-name>Gallery Talks</internal-name>
+	<channelKey_s>gallery-talks</channelKey_s>
+	<description_s/>
+	<file-name>gallery-talks.xml</file-name>
+	<folder-name/>
+	<featured_b>false</featured_b>
+	<maxVideosDisplay_i>6</maxVideosDisplay_i>
+	<maxChannelsDisplay_i>3</maxChannelsDisplay_i>
+	<heroImage_s>/static-assets/images/channels/50f7def6-d0fb-7288-9746-6413ee965b39/G10-ChangingWorld.jpeg</heroImage_s>
+	<thumbnailImage_s>/static-assets/images/channels/50f7def6-d0fb-7288-9746-6413ee965b39/G10-ChangingWorld.jpeg</thumbnailImage_s>
+	<createdDate>2022-02-14T22:32:06.367Z</createdDate>
+	<createdDate_dt>2022-02-14T22:32:06.367Z</createdDate_dt>
+	<lastModifiedDate>2022-06-13T14:29:57.373Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-06-13T14:29:57.373Z</lastModifiedDate_dt>
+</component>

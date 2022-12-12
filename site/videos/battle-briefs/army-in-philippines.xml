@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>0908</objectGroupId>
+	<objectId>09089bd1-6218-9052-ea07-79f460f30994</objectId>
+	<video_o>	<item>	<url>/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Battle Brief_ The Army and the Philippines.m3u8</url>
+	</item>	<item>	<url>/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Battle Brief_ The Army and the Philippines.mpd</url>
+	</item></video_o>
+	<thumbnail_s>/static-assets/images/videos/09089bd1-6218-9052-ea07-79f460f30994/US-Army-in-Phil-1945-LoC.jpg</thumbnail_s>
+	<summary_s>One-hour virtual tour, hosted by Museum Educator John R. Mass.</summary_s>
+	<internal-name>Battle Brief Army in Philippines</internal-name>
+	<title_s tokenized="true">Battle Brief: The Army and the Philippines</title_s>
+	<format_s>video</format_s>
+	<file-name>army-in-philippines.xml</file-name>
+	<folder-name/>
+	<featured_b>false</featured_b>
+	<channels_o>	<item>	<key>battle-briefs</key>
+	<value_smv>Battle Briefs</value_smv>
+	</item></channels_o>
+	<description_html>&lt;p&gt;&amp;nbsp;Christopher L. Kolakowski, Director of the Wisconsin Veterans Museum and author of Last Stand on Bataan: The Defense of the Philippines, December 1941-May 1942, for a discussion with Museum Educator John R. Maass about the U.S. Army&amp;rsquo;s role in the military history of the Philippines since the end of the nineteenth century through World War II, and into the Cold War years.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description_html>
+	<createdDate>2022-06-08T14:21:15.442Z</createdDate>
+	<createdDate_dt>2022-06-08T14:21:15.442Z</createdDate_dt>
+	<lastModifiedDate>2022-06-08T15:17:45.319Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-06-08T15:17:45.319Z</lastModifiedDate_dt>
+	<date_dt>2022-06-08T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

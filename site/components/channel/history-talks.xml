@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-channel</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required>false</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>997170f5</objectGroupId>
+	<objectId>997170f5-9571-4fe9-ad27-4c6a2d38a41d</objectId>
+	<internal-name>History Talks</internal-name>
+	<channelKey_s>history-talks</channelKey_s>
+	<description_s/>
+	<file-name>history-talks.xml</file-name>
+	<folder-name/>
+	<featured_b>false</featured_b>
+	<maxVideosDisplay_i>6</maxVideosDisplay_i>
+	<maxChannelsDisplay_i>3</maxChannelsDisplay_i>
+	<heroImage_s>/static-assets/images/channels/997170f5-9571-4fe9-ad27-4c6a2d38a41d/HistoryTalk1.png</heroImage_s>
+	<thumbnailImage_s>/static-assets/images/channels/997170f5-9571-4fe9-ad27-4c6a2d38a41d/HistoryTalk1.png</thumbnailImage_s>
+	<createdDate>2022-02-14T22:32:06.367Z</createdDate>
+	<createdDate_dt>2022-02-14T22:32:06.367Z</createdDate_dt>
+	<lastModifiedDate>2022-06-13T14:27:26.420Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-06-13T14:27:26.420Z</lastModifiedDate_dt>
+</component>

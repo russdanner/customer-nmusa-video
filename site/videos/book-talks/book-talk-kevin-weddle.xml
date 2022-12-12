@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>bbf0</objectGroupId>
+	<objectId>bbf06c15-9e6b-a5f7-f6f3-4c8acb33c0c0</objectId>
+	<format_s>video</format_s>
+	<channels_o>	<item>	<key>book-talks</key>
+	<value_smv>Book Talks</value_smv>
+	</item></channels_o>
+	<thumbnail_s>/static-assets/images/videos/bbf06c15-9e6b-a5f7-f6f3-4c8acb33c0c0/bookTalkKevinWeddle.jpg</thumbnail_s>
+	<internal-name>Book Talk Kevin WEddle</internal-name>
+	<title_s tokenized="true">Book Talk with Kevin Weddle</title_s>
+	<file-name>book-talk-kevin-weddle.xml</file-name>
+	<folder-name/>
+	<summary_s>View book talk with Kevin Weddle</summary_s>
+	<featured_b>false</featured_b>
+	<video_o>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Book Talk with Kevin Weddle.m3u8</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Book Talk with Kevin Weddle.mpd</url>
+	</item></video_o>
+	<description_html>&lt;p&gt;&lt;span style="color: #0d0d0d; font-family: Roboto, Noto, sans-serif; font-size: 15px; white-space: pre-wrap; background-color: #ffffff;"&gt;View discussion with US Army War College professor Kevin J. Weddle on his new book on one of the crucial turning points of the American War for Independence, The Compleat Victory: Saratoga and the American Revolution&lt;/span&gt;&lt;/p&gt;</description_html>
+	<createdDate>2022-06-08T18:55:19.394Z</createdDate>
+	<createdDate_dt>2022-06-08T18:55:19.394Z</createdDate_dt>
+	<lastModifiedDate>2022-06-08T18:55:19.394Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-06-08T18:55:19.394Z</lastModifiedDate_dt>
+	<date_dt>2022-06-08T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

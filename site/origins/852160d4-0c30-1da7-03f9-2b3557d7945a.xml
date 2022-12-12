@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/stream-origin</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>8521</objectGroupId>
+	<objectId>852160d4-0c30-1da7-03f9-2b3557d7945a</objectId>
+	<file-name>852160d4-0c30-1da7-03f9-2b3557d7945a.xml</file-name>
+	<internal-name>Lecture Hall A</internal-name>
+	<url_s>https://wowzaec2demo.streamlock.net/live/bigbuckbunny/manifest_mpm4sav_mvtime.mpd</url_s>
+	<createdDate>2018-08-03T21:53:18.866Z</createdDate>
+	<createdDate_dt>2018-08-03T21:53:18.866Z</createdDate_dt>
+	<lastModifiedDate>2022-02-11T14:59:37.497Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-02-11T14:59:37.497Z</lastModifiedDate_dt>
+</component>

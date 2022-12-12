@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>7dda</objectGroupId>
+	<objectId>7dda6fbc-5a69-f2fd-db6c-cceae7ec9068</objectId>
+	<internal-name>Curator Ep08 M1 Helmet</internal-name>
+	<title_s tokenized="true">Episode 8: The M1 Helmet</title_s>
+	<file-name>m1-helmet.xml</file-name>
+	<folder-name/>
+	<featured_b>false</featured_b>
+	<summary_s>Review of the M1-Helmet</summary_s>
+	<format_s>video</format_s>
+	<channels_o>	<item>	<key>curators-corner</key>
+	<value_smv>Curator's Corner</value_smv>
+	</item></channels_o>
+	<thumbnail_s>/static-assets/images/videos/7dda6fbc-5a69-f2fd-db6c-cceae7ec9068/cc-ep8_m1_helmet-410x363.jpg</thumbnail_s>
+	<video_o>	<item>	<url>/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Curators Corner E8.m3u8</url>
+	</item>	<item>	<url>/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Curators Corner E8.mpd</url>
+	</item></video_o>
+	<description_html>&lt;p&gt;The M1 Helmet was introduced during World War I and modified in World War II. This piece of equipment protected Soldiers from flying fragments for the sides and back of the head. The M1 proved itself to be one of the most iconic items of military equipment. Like many other Soldiers during World War II, Major General Maurice Rose wore an M1 Helmet. As a young Soldier, 1st. Lt. Rose sailed to France with the AEF. He rose to the rank of major general. On March 30, 1945, Maj. Gen. Rose was killed instantly when a German tanker opened fire, striking him with a total of 14 bullets. He was the highest-ranking Jewish officer in the U.S. Army at his time of death and the highest-ranking American killed by enemy fire in the European Theater. Learn more about the M1 Helmet and Maj. Gen. Rose in episode 8.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description_html>
+	<createdDate>2022-02-14T22:04:53.536Z</createdDate>
+	<createdDate_dt>2022-02-14T22:04:53.536Z</createdDate_dt>
+	<lastModifiedDate>2022-06-28T20:48:43.341Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-06-28T20:48:43.341Z</lastModifiedDate_dt>
+	<date_dt>2022-06-21T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

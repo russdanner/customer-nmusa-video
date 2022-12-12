@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-channel</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required>false</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f3ff</objectGroupId>
+	<objectId>f3ff7555-2513-5e4c-ece8-91691ab11af7</objectId>
+	<internal-name>General</internal-name>
+	<channelKey_s>misc</channelKey_s>
+	<description_s/>
+	<file-name>misc.xml</file-name>
+	<folder-name/>
+	<featured_b>false</featured_b>
+	<heroImage_s>/static-assets/images/channels/f3ff7555-2513-5e4c-ece8-91691ab11af7/miscellaneous.jpg</heroImage_s>
+	<thumbnailImage_s>/static-assets/images/channels/f3ff7555-2513-5e4c-ece8-91691ab11af7/miscellaneous.jpg</thumbnailImage_s>
+	<maxVideosDisplay_i>6</maxVideosDisplay_i>
+	<maxChannelsDisplay_i>3</maxChannelsDisplay_i>
+	<createdDate>2022-08-24T16:45:22.316Z</createdDate>
+	<createdDate_dt>2022-08-24T16:45:22.316Z</createdDate_dt>
+	<lastModifiedDate>2022-12-07T20:53:03.189Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-12-07T20:53:03.189Z</lastModifiedDate_dt>
+</component>

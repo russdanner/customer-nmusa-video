@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2cd6</objectGroupId>
+	<objectId>2cd6fdc1-9c77-6e12-c45a-d4b73b258649</objectId>
+	<internal-name>Book Talk Steve Vogel</internal-name>
+	<title_s tokenized="true">Book Talk with Steve Vogel</title_s>
+	<file-name>book-talk-steve-vogel.xml</file-name>
+	<folder-name/>
+	<summary_s>Video book talk with Steve Vogel</summary_s>
+	<featured_b>false</featured_b>
+	<format_s>video</format_s>
+	<channels_o>	<item>	<key>book-talks</key>
+	<value_smv>Book Talks</value_smv>
+	</item></channels_o>
+	<thumbnail_s>/static-assets/images/videos/2cd6fdc1-9c77-6e12-c45a-d4b73b258649/bookTalkSteveVogel2020Oct22.jpg</thumbnail_s>
+	<video_o>	<item>	<url>/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Book Talk with Steve Vogel.m3u8</url>
+	</item>	<item>	<url>/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Book Talk with Steve Vogel.mpd</url>
+	</item></video_o>
+	<description_html>&lt;p&gt;Book talk with Steve Vogel, author of Betrayal in Berlin: The True Story of the Cold War&amp;rsquo;s Most Audacious Espionage Operation. Vogel will discuss the story of the Berlin Tunnel, one of the West&amp;rsquo;s greatest espionage operations during the war. This event was held on October 22, 2020.&lt;/p&gt;</description_html>
+	<createdDate>2022-05-27T19:59:10.386Z</createdDate>
+	<createdDate_dt>2022-05-27T19:59:10.386Z</createdDate_dt>
+	<lastModifiedDate>2022-06-08T16:54:46.159Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-06-08T16:54:46.159Z</lastModifiedDate_dt>
+	<date_dt>2022-05-27T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

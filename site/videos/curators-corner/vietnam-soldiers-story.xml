@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>94ec</objectGroupId>
+	<objectId>94ec7886-49c8-bc92-a59f-60f1789456b9</objectId>
+	<internal-name>Curator Ep07 Vietnam Soldiers Story</internal-name>
+	<title_s tokenized="true">Episode 7: A Vietnam Soldier's Story</title_s>
+	<summary_s>Video of Vietnam Soldier's Story</summary_s>
+	<file-name>vietnam-soldiers-story.xml</file-name>
+	<folder-name/>
+	<format_s>video</format_s>
+	<featured_b>false</featured_b>
+	<channels_o>	<item>	<key>curators-corner</key>
+	<value_smv>Curator's Corner</value_smv>
+	</item></channels_o>
+	<thumbnail_s>/static-assets/images/videos/94ec7886-49c8-bc92-a59f-60f1789456b9/cc-ep7_vietnam_soldier.jpg</thumbnail_s>
+	<video_o>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/A_Vietnam_Soldiers_Story_Curators_Corner_Episode_07.m3u8</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/A_Vietnam_Soldiers_Story_Curators_Corner_Episode_07.mpd</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/A_Vietnam_Soldiers_Story_Curators_Corner_Episode_07_audio.mp3</url>
+	</item></video_o>
+	<description_html>&lt;p&gt;In this episode, we honor Vietnam War Veterans for their service, dedication, and sacrifice. Learn the story of Staff Sgt. John Cavaiani through the pajamas he wore while being held captive by North Vietnamese Soldiers. Staff Sgt. Cavaiani&amp;rsquo;s heroic actions on Hickory Hill lead to him being captured and held as a prisoner. After spending two years in multiple prison camps, Staff Sgt. Cavaiani was awarded the Medal of Honor, Bronze Star, and Purple Heart in 1973.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description_html>
+	<createdDate>2022-06-07T16:45:43.695Z</createdDate>
+	<createdDate_dt>2022-06-07T16:45:43.695Z</createdDate_dt>
+	<lastModifiedDate>2022-08-25T20:55:00.578Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-08-25T20:55:00.578Z</lastModifiedDate_dt>
+	<date_dt>2022-06-22T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

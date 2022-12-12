@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>4b94</objectGroupId>
+	<objectId>4b94caef-8a2c-e11c-5a57-b9eaabb84390</objectId>
+	<internal-name>Book Talk Marc Gallicchio</internal-name>
+	<title_s tokenized="true">Book Talk with Marc Gallicchio</title_s>
+	<file-name>book-talk-marc-gallicchio.xml</file-name>
+	<folder-name/>
+	<summary_s>Book talk with Marc Gallicchio</summary_s>
+	<featured_b>false</featured_b>
+	<format_s>video</format_s>
+	<channels_o>	<item>	<key>book-talks</key>
+	<value_smv>Book Talks</value_smv>
+	</item></channels_o>
+	<video_o>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Book Talk with Marc Gallicchio.m3u8</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Book Talk with Marc Gallicchio.mpd</url>
+	</item></video_o>
+	<thumbnail_s>/static-assets/images/videos/4b94caef-8a2c-e11c-5a57-b9eaabb84390/bookTalkMarcGallicchio.jpg</thumbnail_s>
+	<description_html>&lt;p&gt;&lt;span style="color: #0d0d0d; font-family: Roboto, Noto, sans-serif; font-size: 15px; white-space: pre-wrap; background-color: #ffffff;"&gt;View book talk with Marc Gallicchio, author of Unconditional: The Japanese Surrender in World War II. Gallicchio offers a narrative of the 1945 surrender in its historical moment.&lt;/span&gt;&lt;/p&gt;</description_html>
+	<createdDate>2022-06-08T18:31:33.590Z</createdDate>
+	<createdDate_dt>2022-06-08T18:31:33.590Z</createdDate_dt>
+	<lastModifiedDate>2022-06-08T18:31:33.590Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-06-08T18:31:33.590Z</lastModifiedDate_dt>
+	<date_dt>2022-06-08T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

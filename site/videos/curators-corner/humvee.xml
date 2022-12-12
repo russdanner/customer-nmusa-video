@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c1b0</objectGroupId>
+	<objectId>c1b0d5c9-4700-b118-bd2f-a8ec3df8d853</objectId>
+	<internal-name>Curator Ep03 Humvee</internal-name>
+	<title_s tokenized="true">Episode 3: Humvee No. 1</title_s>
+	<file-name>humvee.xml</file-name>
+	<folder-name/>
+	<summary_s>Video on the Humvee No. 1</summary_s>
+	<featured_b>false</featured_b>
+	<format_s>video</format_s>
+	<channels_o>	<item>	<key>curators-corner</key>
+	<value_smv>Curator's Corner</value_smv>
+	</item></channels_o>
+	<video_o>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Humvee-1-Curators- Corner-Ep-03-US-Army.m3u8</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Humvee-1-Curators- Corner-Ep-03-US-Army.mpd</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Humvee-1-Curators- Corner-Ep-03-US-Army_audio.mp3</url>
+	</item></video_o>
+	<thumbnail_s>/static-assets/images/videos/c1b0d5c9-4700-b118-bd2f-a8ec3df8d853/cc-ep3_Humvee1-410x363.jpg</thumbnail_s>
+	<description_html>&lt;p&gt;Learn about the iconic vehicle that most Soldiers within the last 35 years have come into contact with. The High Mobility Multipurpose Wheeled Vehicle (HMMWV), also known as Humvee, has seen combat in every American conflict since 1983 and has become a recognizable part of the Army&amp;rsquo;s public image. The HMMWV has forged a strong connection with American Soldiers around the world in becoming one of the most reliable vehicles in the Army. The Humvee has been developed into a number of specialized variants that enable nearly every type of Soldier role in the Army. HMMWVs were so successful that they have also been used by numerous allies, other countries, and have even been developed into a civilian variant.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description_html>
+	<createdDate>2022-06-06T20:58:20.650Z</createdDate>
+	<createdDate_dt>2022-06-06T20:58:20.650Z</createdDate_dt>
+	<lastModifiedDate>2022-08-24T16:24:28.750Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-08-24T16:24:28.750Z</lastModifiedDate_dt>
+	<date_dt>2022-06-26T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

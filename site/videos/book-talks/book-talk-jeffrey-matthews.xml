@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>b0f6</objectGroupId>
+	<objectId>b0f64171-16ca-1c94-c027-137f4ef037c1</objectId>
+	<internal-name>Book Talk Jeffrey Mathews</internal-name>
+	<title_s tokenized="true">Book Talk with Jeffrey Matthews</title_s>
+	<file-name>book-talk-jeffrey-matthews.xml</file-name>
+	<folder-name/>
+	<summary_s>Book talk</summary_s>
+	<featured_b>false</featured_b>
+	<format_s>video</format_s>
+	<channels_o>	<item>	<key>book-talks</key>
+	<value_smv>Book Talks</value_smv>
+	</item></channels_o>
+	<thumbnail_s>/static-assets/images/videos/b0f64171-16ca-1c94-c027-137f4ef037c1/bookTalkJeffreyMatthew.jpg</thumbnail_s>
+	<video_o>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Book Talk with Jeffrey Matthews.m3u8</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Book Talk with Jeffrey Matthews.mpd</url>
+	</item></video_o>
+	<description_html>&lt;p&gt;View book talk with Jeffrey Matthews, author of Colin Powell: Imperfect Patriot. Imperfect Patriot.&lt;/p&gt;</description_html>
+	<createdDate>2022-06-08T17:43:18.903Z</createdDate>
+	<createdDate_dt>2022-06-08T17:43:18.903Z</createdDate_dt>
+	<lastModifiedDate>2022-06-08T17:43:18.903Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-06-08T17:43:18.903Z</lastModifiedDate_dt>
+	<date_dt>2022-06-08T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

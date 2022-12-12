@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>dfb6</objectGroupId>
+	<objectId>dfb62f70-d3ae-560b-bf4f-17376feb3dac</objectId>
+	<channels_o>	<item>	<key>book-talks</key>
+	<value_smv>Book Talks</value_smv>
+	</item></channels_o>
+	<thumbnail_s>/static-assets/images/videos/dfb62f70-d3ae-560b-bf4f-17376feb3dac/bookTalkMarkMaloyjpg.jpg</thumbnail_s>
+	<file-name>book-talk-mark-maloy.xml</file-name>
+	<folder-name/>
+	<internal-name>Book Talk Mark Maloy</internal-name>
+	<title_s tokenized="true">Book Talk with Mark Malog</title_s>
+	<summary_s>View book talk on Victory or Death</summary_s>
+	<featured_b>false</featured_b>
+	<format_s>video</format_s>
+	<video_o>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Book Talk with Mark Maloy.m3u8</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Book Talk with Mark Maloy.mpd</url>
+	</item></video_o>
+	<description_html>&lt;p&gt;&lt;span style="color: #0d0d0d; font-family: Roboto, Noto, sans-serif; font-size: 15px; white-space: pre-wrap; background-color: #ffffff;"&gt;View special event with Mark Maloy, author of Victory or Death: The Battles of Trenton and Princeton, December 25, 1776-January 3, 1777.&lt;/span&gt;&lt;/p&gt;</description_html>
+	<createdDate>2022-06-08T18:15:16.572Z</createdDate>
+	<createdDate_dt>2022-06-08T18:15:16.572Z</createdDate_dt>
+	<lastModifiedDate>2022-06-08T18:15:16.572Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-06-08T18:15:16.572Z</lastModifiedDate_dt>
+	<date_dt>2022-06-08T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2966</objectGroupId>
+	<objectId>2966e4f0-8b64-d73f-a50b-7906d03bec22</objectId>
+	<file-name>militia--snare-drum.xml</file-name>
+	<folder-name/>
+	<internal-name>Curator Ep10 Militia Snare Drum</internal-name>
+	<title_s tokenized="true">Episode 10: Militia Snare Drum</title_s>
+	<featured_b>false</featured_b>
+	<summary_s>Video of Militia Snare Drum</summary_s>
+	<format_s>video</format_s>
+	<video_o>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Militia_Snare_Drum_Curators_Corner_Episode_10.m3u8</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Militia_Snare_Drum_Curators_Corner_Episode_10.mpd</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Militia_Snare_Drum_Curators_Corner_Episode_10_audio.mp3</url>
+	</item></video_o>
+	<channels_o>	<item>	<key>curators-corner</key>
+	<value_smv>Curator's Corner</value_smv>
+	</item></channels_o>
+	<thumbnail_s>/static-assets/images/videos/2966e4f0-8b64-d73f-a50b-7906d03bec22/cc-ep10_militia_drum-410x363.jpg</thumbnail_s>
+	<description_html>&lt;p&gt;In this episode, learn about the rare, militia snare drum on display in the Founding the Nation Gallery. The pine tree motif is a symbol of the Massachusetts Bay Colony. Underneath the tree written in Latin is the phrase, &amp;ldquo;It is sweet and proper to die for one&amp;rsquo;s country.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;This drum, made around 1750, is a reminder of how important music and instruments were on the battlefield. The militia snare drum was used to build morale during war. More importantly, it was a medium of communication amongst the troops. This snare drum and others just like it, helped the U.S. Army achieve victory.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description_html>
+	<createdDate>2022-06-07T16:56:35.014Z</createdDate>
+	<createdDate_dt>2022-06-07T16:56:35.014Z</createdDate_dt>
+	<lastModifiedDate>2022-08-25T20:53:28.055Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-08-25T20:53:28.055Z</lastModifiedDate_dt>
+	<date_dt>2022-06-19T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

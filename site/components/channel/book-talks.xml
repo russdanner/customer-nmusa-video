@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-channel</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required>false</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>dd506386</objectGroupId>
+	<objectId>dd506386-0d50-4239-9e7b-abf64b555d62</objectId>
+	<internal-name>Book Talks</internal-name>
+	<channelKey_s>book-talks</channelKey_s>
+	<description_s/>
+	<file-name>book-talks.xml</file-name>
+	<folder-name/>
+	<featured_b>false</featured_b>
+	<maxVideosDisplay_i>6</maxVideosDisplay_i>
+	<maxChannelsDisplay_i>3</maxChannelsDisplay_i>
+	<heroImage_s>/static-assets/images/channels/dd506386-0d50-4239-9e7b-abf64b555d62/Books-Canva.png</heroImage_s>
+	<thumbnailImage_s>/static-assets/images/channels/dd506386-0d50-4239-9e7b-abf64b555d62/Books-Canva.png</thumbnailImage_s>
+	<createdDate>2022-02-14T22:32:06.367Z</createdDate>
+	<createdDate_dt>2022-02-14T22:32:06.367Z</createdDate_dt>
+	<lastModifiedDate>2022-06-13T14:29:00.056Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-06-13T14:29:00.056Z</lastModifiedDate_dt>
+</component>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/taxonomy</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>e691</objectGroupId>
+	<objectId>e691d9be-4cd7-9088-8fc1-b31b7fa81fa9</objectId>
+	<items item-list="true">	<item>	<key>curators-corner</key>
+	<value>Curator's Corner</value>
+	</item>	<item>	<key>history-talks</key>
+	<value>History Talks</value>
+	</item>	<item>	<key>battle-briefs</key>
+	<value>Battle Briefs</value>
+	</item>	<item>	<key>book-talks</key>
+	<value>Book Talks</value>
+	</item>	<item>	<key>gallery-talks</key>
+	<value>Gallery Talks</value>
+	</item></items>
+	<file-name>channels.xml</file-name>
+	<folder-name/>
+	<internal-name>Channels</internal-name>
+	<createdDate>2018-05-25T19:51:42.895Z</createdDate>
+	<createdDate_dt>2018-05-25T19:51:42.895Z</createdDate_dt>
+	<lastModifiedDate>2022-05-26T17:18:40.021Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-05-26T17:18:40.021Z</lastModifiedDate_dt>
+</component>

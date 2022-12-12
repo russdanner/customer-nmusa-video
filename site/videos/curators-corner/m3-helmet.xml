@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>d4e7</objectGroupId>
+	<objectId>d4e72e5f-1777-e52e-3f03-8d6b3872a5e9</objectId>
+	<file-name>m3-helmet.xml</file-name>
+	<folder-name/>
+	<internal-name>Curator Ep13 Parachutist Helmet</internal-name>
+	<title_s tokenized="true">Episode 13 : Capt Burd's M3 Parachutist Helmet</title_s>
+	<summary_s>Video Presentation of Capt Burd's M3 Parachutist Helmet</summary_s>
+	<format_s>video</format_s>
+	<channels_o>	<item>	<key>curators-corner</key>
+	<value_smv>Curator's Corner</value_smv>
+	</item></channels_o>
+	<featured_b>false</featured_b>
+	<thumbnail_s>/static-assets/images/videos/d4e72e5f-1777-e52e-3f03-8d6b3872a5e9/cc-ep13_M2-Helmet410x363.jpg</thumbnail_s>
+	<video_o>	<item>	<url>/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/M3ParachutistHelmetEpisode13.m3u8</url>
+	</item>	<item>	<url>/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/M3ParachutistHelmetEpisode13.mpd</url>
+	</item>	<item>	<url>/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/M3ParachutistHelmetEpisode13_audio.mp3</url>
+	</item></video_o>
+	<description_html>&lt;p&gt;In this episode, learn about Capt. William G. Burd's M2 Parachutist Helmet on display in the Global War Gallery. Burd, a paratrooper with the 501st Parachute Infantry Regiment, 101st Airborne Division during World War II, donned this helmet during Allied combat drops in support of Operation Overlord and Operation Market Garden.&amp;nbsp; &amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Airborne operations utilized paratroopers or military parachutists to jump in behind enemy lines. It was soon discovered that these specially trained Soldiers required modifications to the general issue M1 helmet, so their headgear would stay on during their descent. Produced by the McCord Radiator Company beginning in 1942, the M2 Parachutist Helmet represents one of the many advancements in wartime technologies that increased the U.S. Army's capability as a fighting force during World War II.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description_html>
+	<createdDate>2022-07-19T16:12:07.683Z</createdDate>
+	<createdDate_dt>2022-07-19T16:12:07.683Z</createdDate_dt>
+	<lastModifiedDate>2022-07-19T16:23:51.330Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-07-19T16:23:51.330Z</lastModifiedDate_dt>
+	<date_dt>2022-06-16T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

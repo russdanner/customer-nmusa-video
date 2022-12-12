@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>ad5f</objectGroupId>
+	<objectId>ad5f029b-c613-593e-4794-66984f9af258</objectId>
+	<file-name>history-talk-meade-price.xml</file-name>
+	<folder-name/>
+	<internal-name>History Talk Meade Price</internal-name>
+	<title_s tokenized="true">HIstory Talk-"Meade, The Price of Victory"</title_s>
+	<summary_s>History Talk- “Meade: The Price of Victory”</summary_s>
+	<featured_b>false</featured_b>
+	<format_s>video</format_s>
+	<channels_o>	<item>	<key>history-talks</key>
+	<value_smv>History Talks</value_smv>
+	</item></channels_o>
+	<thumbnail_s>/static-assets/images/videos/ad5f029b-c613-593e-4794-66984f9af258/historyTalkMeade.jpg</thumbnail_s>
+	<video_o>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/History Talk- “Meade_ The Price of Victory”.m3u8</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/History Talk- “Meade_ The Price of Victory”.mpd</url>
+	</item></video_o>
+	<description_html>&lt;p&gt;&lt;span style="color: #0d0d0d; font-family: Roboto, Noto, sans-serif; font-size: 15px; white-space: pre-wrap; background-color: #ffffff;"&gt;John Selby of Roanoke College examines Union General George Meade. Meade&amp;rsquo;s performance during his two-year tenure as commander of the Army of the Potomac was overshadowed by his successor: Ulysses S. Grant.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</description_html>
+	<createdDate>2022-06-08T19:48:34.387Z</createdDate>
+	<createdDate_dt>2022-06-08T19:48:34.387Z</createdDate_dt>
+	<lastModifiedDate>2022-06-08T19:48:34.387Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-06-08T19:48:34.387Z</lastModifiedDate_dt>
+	<date_dt>2022-06-08T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

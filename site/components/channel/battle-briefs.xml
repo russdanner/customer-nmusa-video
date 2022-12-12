@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-channel</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required>false</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>d93fcfad</objectGroupId>
+	<objectId>d93fcfad-2acf-4fb2-b914-92d6b14fc973</objectId>
+	<internal-name>Battle Briefs</internal-name>
+	<channelKey_s>battle-briefs</channelKey_s>
+	<description_s/>
+	<file-name>battle-briefs.xml</file-name>
+	<folder-name/>
+	<featured_b>false</featured_b>
+	<maxVideosDisplay_i>6</maxVideosDisplay_i>
+	<maxChannelsDisplay_i>3</maxChannelsDisplay_i>
+	<heroImage_s>/static-assets/images/channels/d93fcfad-2acf-4fb2-b914-92d6b14fc973/iiif-service_gmd_gmdvhs_gvhs_gvhs01_vhs00023-full-pct_25-0-default.jpg</heroImage_s>
+	<thumbnailImage_s>/static-assets/images/channels/d93fcfad-2acf-4fb2-b914-92d6b14fc973/iiif-service_gmd_gmdvhs_gvhs_gvhs01_vhs00023-full-pct_25-0-default.jpg</thumbnailImage_s>
+	<createdDate>2022-02-14T22:32:06.367Z</createdDate>
+	<createdDate_dt>2022-02-14T22:32:06.367Z</createdDate_dt>
+	<lastModifiedDate>2022-06-10T17:16:49.670Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-06-10T17:16:49.670Z</lastModifiedDate_dt>
+</component>

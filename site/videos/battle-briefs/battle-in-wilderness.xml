@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>a890</objectGroupId>
+	<objectId>a890c591-5919-29ab-faa5-9492ac8972f9</objectId>
+	<file-name>battle-in-wilderness.xml</file-name>
+	<folder-name/>
+	<internal-name>Battle Brief Battle in Wilderness</internal-name>
+	<title_s tokenized="true">Battle Brief: Battle of the Wilderness, 1864</title_s>
+	<summary_s>Battle of the Wilderness in early May 1864</summary_s>
+	<format_s>video</format_s>
+	<featured_b>false</featured_b>
+	<channels_o>	<item>	<key>battle-briefs</key>
+	<value_smv>Battle Briefs</value_smv>
+	</item></channels_o>
+	<video_o>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Battle Brief_ Battle of the Wilderness, 1864.m3u8</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Battle Brief_ Battle of the Wilderness, 1864.mpd</url>
+	</item></video_o>
+	<thumbnail_s>/static-assets/images/videos/a890c591-5919-29ab-faa5-9492ac8972f9/PROGRAMS_BattleBrief-sq.png</thumbnail_s>
+	<description_html>&lt;p&gt;In-depth look at the bloody Wilderness Campaign west of Fredericksburg&lt;/p&gt;</description_html>
+	<createdDate>2022-06-08T15:02:54.280Z</createdDate>
+	<createdDate_dt>2022-06-08T15:02:54.280Z</createdDate_dt>
+	<lastModifiedDate>2022-06-08T15:02:54.280Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-06-08T15:02:54.280Z</lastModifiedDate_dt>
+	<date_dt>2022-06-08T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

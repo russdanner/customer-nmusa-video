@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>3263</objectGroupId>
+	<objectId>3263bfe0-d7bc-0e18-ed1d-4bdf5f0d096f</objectId>
+	<file-name>pow-shirt-and-pants.xml</file-name>
+	<folder-name/>
+	<internal-name>Curator Ep02 POW Shirt and Pants</internal-name>
+	<title_s tokenized="true">Episode 2: POW Shirt and Pants</title_s>
+	<summary_s>Video on POW Shirt and Pants</summary_s>
+	<channels_o>	<item>	<key>curators-corner</key>
+	<value_smv>Curator's Corner</value_smv>
+	</item></channels_o>
+	<featured_b>false</featured_b>
+	<format_s>video</format_s>
+	<video_o>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/POW_Shirt_and_Pants_Curators_Corner_Episode_02.m3u8</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/POW_Shirt_and_Pants_Curators_Corner_Episode_02.mpd</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/POW_Shirt_and_Pants_Curators_Corner_Episode_02_audio.mp3</url>
+	</item></video_o>
+	<thumbnail_s>/static-assets/images/videos/3263bfe0-d7bc-0e18-ed1d-4bdf5f0d096f/cc-ep2-pow_shirt_and_pants.jpg</thumbnail_s>
+	<description_html>&lt;p&gt;Discover the story of Staff Sgt. Jon R. Cavaiani through the pajamas he wore for nearly two years as a Prisoner of War (POW) in North Vietnam. Awarded the Medal of Honor, Bronze Star, and Purple Heart for his actions, Cavaiani continued to serve in the Army until his retirement in 1990. Cavaiani&amp;rsquo;s story is a compelling example of the Army Values.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.thenmusa.org/exhibit/cold-war/."&gt;To learn more about the Vietnam War, visit https://www.thenmusa.org/exhibit/cold-war/.&lt;/a&gt;&lt;/p&gt;</description_html>
+	<createdDate>2022-06-07T14:49:39.534Z</createdDate>
+	<createdDate_dt>2022-06-07T14:49:39.534Z</createdDate_dt>
+	<lastModifiedDate>2022-08-25T20:55:35.916Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-08-25T20:55:35.916Z</lastModifiedDate_dt>
+	<date_dt>2022-06-27T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

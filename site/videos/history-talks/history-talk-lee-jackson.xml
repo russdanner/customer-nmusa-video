@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>a75d</objectGroupId>
+	<objectId>a75d83d9-6a8d-df12-6c9e-3966ae6d09a9</objectId>
+	<file-name>history-talk-lee-jackson.xml</file-name>
+	<folder-name/>
+	<internal-name>HIstory Talk Robert Lee Stonewall</internal-name>
+	<title_s tokenized="true">History Talk-"Robert E. Lee, Stonewall Jackson"</title_s>
+	<summary_s>A Look at Lee and Stonewall</summary_s>
+	<format_s>video</format_s>
+	<featured_b>false</featured_b>
+	<channels_o>	<item>	<key>history-talks</key>
+	<value_smv>History Talks</value_smv>
+	</item></channels_o>
+	<video_o>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/History Talk- “Robert E. Lee, Stonewall Jackson.m3u8</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/History Talk- “Robert E. Lee, Stonewall Jackson.mpd</url>
+	</item></video_o>
+	<thumbnail_s>/static-assets/images/videos/a75d83d9-6a8d-df12-6c9e-3966ae6d09a9/historyTalkLeeJackson.jpg</thumbnail_s>
+	<description_html>&lt;p&gt;&lt;span style="color: #0d0d0d; font-family: Roboto, Noto, sans-serif; font-size: 15px; white-space: pre-wrap; background-color: #ffffff;"&gt;US Army War College historian Christian Keller examines the value of personal relationships among senior military leaders responsible for organizational survival&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</description_html>
+	<createdDate>2022-06-08T20:05:59.629Z</createdDate>
+	<createdDate_dt>2022-06-08T20:05:59.629Z</createdDate_dt>
+	<lastModifiedDate>2022-06-08T20:05:59.629Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-06-08T20:05:59.629Z</lastModifiedDate_dt>
+	<date_dt>2022-06-08T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

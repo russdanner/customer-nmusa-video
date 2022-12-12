@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>a518</objectGroupId>
+	<objectId>a518f678-b784-6e66-8a20-85cb6cc81ca2</objectId>
+	<file-name>super6-1.xml</file-name>
+	<folder-name/>
+	<internal-name>Curator Ep12 Super 6-1</internal-name>
+	<title_s tokenized="true">Episode 12: Super 6-1 Engine</title_s>
+	<summary_s>Presentation of Super6-1 Engine</summary_s>
+	<featured_b>false</featured_b>
+	<format_s>video</format_s>
+	<channels_o>	<item>	<key>curators-corner</key>
+	<value_smv>Curator's Corner</value_smv>
+	</item></channels_o>
+	<thumbnail_s>/static-assets/images/videos/a518f678-b784-6e66-8a20-85cb6cc81ca2/cc-ep12_Super-6-1-410x363.jpg</thumbnail_s>
+	<video_o>	<item>	<url>/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Super 6-1.m3u8</url>
+	</item>	<item>	<url>/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Super 6-1.mpd</url>
+	</item></video_o>
+	<description_html>&lt;p&gt;Super 6-1 was the call sign for the MH-60L Black Hawk helicopter that was struck by a direct hit from a Rocket Propelled Grenade fired by Somalian forces. This action turned the simple raid to capture key warlords into a grueling 2-day battle where 18 American Soldiers were killed, and 73 wounded.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Both pilots, Chief Warrant Officer Cliff Wolcott and Donovan Briley, were killed during the crash. Staff Sergeant Daniel Busch, a Delta Force Soldier was mortally wounded defending the remaining crew after the crash. This engine was recovered 20 years after the battle and then repatriated to the United States in August of 2013.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description_html>
+	<createdDate>2022-02-14T21:04:29.604Z</createdDate>
+	<createdDate_dt>2022-02-14T21:04:29.604Z</createdDate_dt>
+	<lastModifiedDate>2022-06-28T21:14:07.195Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-06-28T21:14:07.195Z</lastModifiedDate_dt>
+	<date_dt>2022-06-17T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

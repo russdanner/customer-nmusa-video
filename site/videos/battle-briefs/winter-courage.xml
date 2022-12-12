@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>526f</objectGroupId>
+	<objectId>526f3079-3b75-c3d0-79c0-a5982c163d49</objectId>
+	<file-name>winter-courage.xml</file-name>
+	<folder-name/>
+	<internal-name>Battle Brief Winter Courage</internal-name>
+	<title_s tokenized="true">Battle Brief: Winter Courage, The Army at Valley Forge, 1777-78</title_s>
+	<summary_s>The Army at Valley Forge, 1777-78</summary_s>
+	<featured_b>false</featured_b>
+	<format_s>video</format_s>
+	<channels_o>	<item>	<key>battle-briefs</key>
+	<value_smv>Battle Briefs</value_smv>
+	</item></channels_o>
+	<thumbnail_s>/static-assets/images/videos/526f3079-3b75-c3d0-79c0-a5982c163d49/GW-Laf-VF-LoC2.jpeg</thumbnail_s>
+	<video_o>	<item>	<url>/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Battle Brief – Winter Courage_ The Army at Vall.m3u8</url>
+	</item>	<item>	<url>/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Battle Brief – Winter Courage_ The Army at Vall.mpd</url>
+	</item></video_o>
+	<description_html>&lt;p&gt;A virtual presentation with author and historian Phillip Greenwalt about the famous Valley Forge winter, and how America&amp;rsquo;s first army survived it.&lt;/p&gt;</description_html>
+	<createdDate>2022-06-08T15:11:06.986Z</createdDate>
+	<createdDate_dt>2022-06-08T15:11:06.986Z</createdDate_dt>
+	<lastModifiedDate>2022-06-09T16:02:55.716Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-06-09T16:02:55.716Z</lastModifiedDate_dt>
+	<date_dt>2022-06-08T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

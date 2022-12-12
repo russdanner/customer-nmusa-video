@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-channel</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required>false</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>1074</objectGroupId>
+	<objectId>10748f33-c80e-8ad7-541a-8d1b6a49c259</objectId>
+	<file-name>curators-corner.xml</file-name>
+	<folder-name/>
+	<featured_b>false</featured_b>
+	<heroImage_s>/static-assets/images/channels/10748f33-c80e-8ad7-541a-8d1b6a49c259/Intro-275A9718.00_00_14_23.Still001_notext_center.jpg</heroImage_s>
+	<thumbnailImage_s>/static-assets/images/channels/10748f33-c80e-8ad7-541a-8d1b6a49c259/Intro-275A9718.00_00_14_23.Still001_notext_center.jpg</thumbnailImage_s>
+	<internal-name>Curators Corner</internal-name>
+	<channelKey_s>curators-corner</channelKey_s>
+	<description_s/>
+	<maxVideosDisplay_i>6</maxVideosDisplay_i>
+	<maxChannelsDisplay_i>3</maxChannelsDisplay_i>
+	<createdDate>2022-02-11T14:47:04.405Z</createdDate>
+	<createdDate_dt>2022-02-11T14:47:04.405Z</createdDate_dt>
+	<lastModifiedDate>2022-06-13T16:08:10.174Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-06-13T16:08:10.174Z</lastModifiedDate_dt>
+</component>

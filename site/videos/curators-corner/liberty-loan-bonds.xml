@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>dede</objectGroupId>
+	<objectId>dedebfbc-56df-7fe3-ade4-793bb27e1094</objectId>
+	<summary_s>Video of Liberty Loan Bonds</summary_s>
+	<internal-name>Curator Ep09 Liberty Loan Bonds</internal-name>
+	<title_s tokenized="true">Episode-09: Liberty Loan Bonds</title_s>
+	<featured_b>false</featured_b>
+	<channels_o>	<item>	<key>curators-corner</key>
+	<value_smv>Curator's Corner</value_smv>
+	</item></channels_o>
+	<format_s>video</format_s>
+	<file-name>liberty-loan-bonds.xml</file-name>
+	<folder-name/>
+	<video_o>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Liberty_Loan_Bonds_Curators_Corner_Episode_09.m3u8</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Liberty_Loan_Bonds_Curators_Corner_Episode_09.mpd</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Liberty_Loan_Bonds_Curators_Corner_Episode_09_audio.mp3</url>
+	</item></video_o>
+	<thumbnail_s>/static-assets/images/videos/dedebfbc-56df-7fe3-ade4-793bb27e1094/cc-ep9_liberty_bonds-410x363.jpg</thumbnail_s>
+	<description_html>&lt;p&gt;During World War I, the United States government borrowed money from its citizens in order to help finance the war effort and called it the &amp;ldquo;Liberty Loan.&amp;rdquo; In total, there were five Liberty Loans drives during the war, with the fifth being termed as the &amp;ldquo;Victory Liberty Loan.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;The Liberty Loan bond drives were highly effective. With the help of celebrities, civilian organizations, and federal agencies, over 20 million individuals had bought bonds, and more than 17 billion dollars had been raised for the war effort. Purchasing bonds became a symbol of patriotic duty for many citizens.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description_html>
+	<createdDate>2022-06-07T16:52:58.209Z</createdDate>
+	<createdDate_dt>2022-06-07T16:52:58.209Z</createdDate_dt>
+	<lastModifiedDate>2022-08-25T20:54:03.084Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-08-25T20:54:03.084Z</lastModifiedDate_dt>
+	<date_dt>2022-06-20T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

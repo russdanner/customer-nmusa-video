@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>33d9</objectGroupId>
+	<objectId>33d9d9f4-529d-38f0-556f-f7602dae5272</objectId>
+	<file-name>myers-brothers.xml</file-name>
+	<folder-name/>
+	<internal-name>Curator Ep11 Myers Brothers</internal-name>
+	<title_s tokenized="true">Episode 11: Myers Brothers</title_s>
+	<summary_s>Video of Myers Brothers</summary_s>
+	<format_s>video</format_s>
+	<featured_b>false</featured_b>
+	<channels_o>	<item>	<key>curators-corner</key>
+	<value_smv>Curator's Corner</value_smv>
+	</item></channels_o>
+	<thumbnail_s>/static-assets/images/videos/33d9d9f4-529d-38f0-556f-f7602dae5272/cc-ep11-Myers-Bros-410x363.jpg</thumbnail_s>
+	<video_o>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Myers_Brothers_Curators_Corner_Episode_11.m3u8</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Myers_Brothers_Curators_Corner_Episode_11.mpd</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Myers_Brothers_Curators_Corner_Episode_11_audio.mp3</url>
+	</item></video_o>
+	<description_html>&lt;p&gt;In this episode, learn about the personal items of the Myers Brothers on display in the Nation Overseas Gallery. One of the Museum&amp;rsquo;s more iconic collections on display &amp;ndash; items belonging to three brothers who all served in the American Expeditionary Forces together &amp;ndash; Private George Myers, Private First Class Paul Myers, and Sergeant Frank Myers.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;It was common during World War I for multiple, immediate family members to serve at the same time due to widespread volunteering and the military draft. The story of George, Paul, and Frank is emblematic of wartime mobilization.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description_html>
+	<createdDate>2022-06-07T17:01:29.434Z</createdDate>
+	<createdDate_dt>2022-06-07T17:01:29.434Z</createdDate_dt>
+	<lastModifiedDate>2022-08-25T20:45:46.246Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-08-25T20:45:46.246Z</lastModifiedDate_dt>
+	<date_dt>2022-06-18T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

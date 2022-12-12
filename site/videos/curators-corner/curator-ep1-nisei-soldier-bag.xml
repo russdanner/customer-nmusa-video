@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>808f</objectGroupId>
+	<objectId>808f7198-90d6-91e3-cdbc-52d1701e4575</objectId>
+	<internal-name>Curator Ep01 Nisei Soldier Bag</internal-name>
+	<title_s tokenized="true">Episode 1: Nisei Soldier Bag</title_s>
+	<file-name>curator-ep1-nisei-soldier-bag.xml</file-name>
+	<folder-name/>
+	<summary_s>View Story on Nisei Soldier Bag</summary_s>
+	<featured_b>false</featured_b>
+	<channels_o>	<item>	<key>curators-corner</key>
+	<value_smv>Curator's Corner</value_smv>
+	</item></channels_o>
+	<format_s>video</format_s>
+	<video_o>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Nisei-Soldier-Bag-Curators-Corner-Ep-01-U.m3u8</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Nisei-Soldier-Bag-Curators-Corner-Ep-01-U.mpd</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Nisei-Soldier-Bag-Curators-Corner-Ep-01-U_audio.mp3</url>
+	</item></video_o>
+	<thumbnail_s>/static-assets/images/videos/808f7198-90d6-91e3-cdbc-52d1701e4575/cc-ep1_soldier_bag.jpg</thumbnail_s>
+	<description_html>&lt;p&gt;Sgt. Gary Uchida&amp;rsquo;s Canvas Travel Bag: The National Museum of the United States Army shares the Soldier&amp;rsquo;s story of Sgt. Gary Uchida who served in the U.S. Army&amp;rsquo;s 100th Infantry Battalion during World War II. Uchida kept an illustrated record of his Army experiences on this otherwise ordinary bag. Born in Hawaii, Uchida is also a second generation Japanese American, referred to as a &amp;ldquo;Nisei Soldier.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Through the Nisei Soldier Experience, the Museum features artifacts that capture the rarely-told story of the Japanese American Nisei Soldier during World War II. This temporary exhibit highlights their struggles both at home and abroad. Their courageous acts on the battlefield and their long-awaited recognition culminating in the Congressional Gold Medal awarded to the Nisei Soldiers of World War II in 2000.&lt;/p&gt;
+&lt;p&gt;To learn more about Nisei Soldiers &lt;a href="https://thenmusa.org/exhibit/Nisei-soldier-experience"&gt;visit https://thenmusa.org/exhibit/Nisei-soldier-experience&lt;/a&gt;&lt;/p&gt;</description_html>
+	<createdDate>2022-05-27T20:20:02.297Z</createdDate>
+	<createdDate_dt>2022-05-27T20:20:02.297Z</createdDate_dt>
+	<lastModifiedDate>2022-08-24T15:59:40.379Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-08-24T15:59:40.379Z</lastModifiedDate_dt>
+	<date_dt>2022-06-28T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>83f2</objectGroupId>
+	<objectId>83f250e1-9349-15a1-d055-c31ca09f231d</objectId>
+	<internal-name>History Talk Ambrose Burnside</internal-name>
+	<title_s tokenized="true">History Talk- “Ambrose Burnside: Too Honest To Succeed”</title_s>
+	<file-name>history-talk-ambrose-burnside.xml</file-name>
+	<folder-name/>
+	<summary_s>Video on Maj Gen Ambrose Burnside</summary_s>
+	<format_s>video</format_s>
+	<channels_o>	<item>	<key>history-talks</key>
+	<value_smv>History Talks</value_smv>
+	</item></channels_o>
+	<featured_b>false</featured_b>
+	<video_o>	<item>	<url>/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/History Talk- “Ambrose Burnside_ Too Honest To .m3u8</url>
+	</item>	<item>	<url>/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/History Talk- “Ambrose Burnside_ Too Honest To .mpd</url>
+	</item></video_o>
+	<thumbnail_s>/static-assets/images/videos/83f250e1-9349-15a1-d055-c31ca09f231d/historyTalkBurnside.jpg</thumbnail_s>
+	<description_html>&lt;p&gt;&lt;span style="color: #0d0d0d; font-family: Roboto, Noto, sans-serif; font-size: 15px; white-space: pre-wrap; background-color: #ffffff;"&gt;A National Park Service ranger and historian for decades, Frank O&amp;rsquo;Reilly of the Fredericksburg-Spotsylvania National Military Parks looks at Maj. Gen. Ambrose Burnside, the Union commander at the Battle of Fredericksburg&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</description_html>
+	<createdDate>2022-06-06T19:10:54.204Z</createdDate>
+	<createdDate_dt>2022-06-06T19:10:54.204Z</createdDate_dt>
+	<lastModifiedDate>2022-06-08T19:38:53.167Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-06-08T19:38:53.167Z</lastModifiedDate_dt>
+	<date_dt>2022-06-06T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>

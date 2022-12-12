@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/video-on-demand</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f7db</objectGroupId>
+	<objectId>f7db2b82-24c1-d72a-652d-9731ecd78ed4</objectId>
+	<internal-name>Curator Ep05 Art of Soldiering</internal-name>
+	<title_s tokenized="true">Episode 5: The Art of Soldiering</title_s>
+	<file-name>art-soldiering.xml</file-name>
+	<folder-name/>
+	<summary_s>Video on The Art of Soldiering</summary_s>
+	<featured_b>false</featured_b>
+	<format_s>video</format_s>
+	<channels_o>	<item>	<key>curators-corner</key>
+	<value_smv>Curator's Corner</value_smv>
+	</item></channels_o>
+	<thumbnail_s>/static-assets/images/videos/f7db2b82-24c1-d72a-652d-9731ecd78ed4/cc-ep5_ArtofSold-410x363.jpg</thumbnail_s>
+	<video_o>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Art-of-Soldiering-Curators-Corner-Ep-05-U.m3u8</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Art-of-Soldiering-Curators-Corner-Ep-05-U.mpd</url>
+	</item>	<item>	<url remote="true">/remote-assets/s3/s3-default/videocenter/static-assets/videos/compressed/Art-of-Soldiering-Curators-Corner-Ep-05-U_audio.mp3</url>
+	</item></video_o>
+	<description_html>&lt;p&gt;The first exhibit in the Special Exhibition Gallery is The Art of Soldiering, showcasing highlights from the U.S. Army&amp;rsquo;s Art Collection. From oil paintings to wood carvings to trench art, the Art of Soldiering offers personal perspectives of everyday Soldier life.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;This episode of Curator&amp;rsquo;s Corner explores two pieces capturing Soldier life during Operation Desert Storm.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Soldier Doing the Laundry,&amp;rdquo; Saudi Arabia, Sgt. 1st Class Sieger Hartgers, 1991, watercolor painting, depicts a Soldier from the 13th Quartermaster Battalion hand washing uniforms.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;MREs and a Cot,&amp;rdquo; Saudi Arabia, Sgt. 1st Class Peter Varisano, 1990, ink on paper, depicts a Soldier from the 101st Airborne Division having a meal.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description_html>
+	<createdDate>2022-06-07T16:39:29.758Z</createdDate>
+	<createdDate_dt>2022-06-07T16:39:29.758Z</createdDate_dt>
+	<lastModifiedDate>2022-08-24T15:10:18.469Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-08-24T15:10:18.469Z</lastModifiedDate_dt>
+	<date_dt>2022-06-24T04:00:00.000Z</date_dt>
+	<date_dt_tz>EST5EDT</date_dt_tz>
+</component>
