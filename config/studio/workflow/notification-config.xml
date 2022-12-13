@@ -6,7 +6,7 @@
 
 -->
 <notificationConfig> 
-  <version>4.0.2</version>  
+  <version>4.0.3</version>  
   <!-- language specific notifications -->  
   <deploymentFailureNotification> 
     <!-- list of email addresses to notify in case of publishing failure -->  
