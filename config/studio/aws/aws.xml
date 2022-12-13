@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <!--
   ~ Copyright (C) 2007-2020 Crafter Software Corporation. All Rights Reserved.
   ~
@@ -14,7 +15,6 @@
   ~ You should have received a copy of the GNU General Public License
   ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   -->
-
 <!--
     AWS profiles configuration file. This files configures 0 or more
     AWS profiles with the information required by AWS services.
@@ -37,25 +37,25 @@
 
    Every service can require additional properties.
 -->
-<aws>
-	<version>2</version>
-   <s3>
-      <profile>
-         <id>s3-default</id>
-         <region>us-east-1</region>
-         <bucketName>crafter-nmusa-v1-us-east-1-blobs-videocenter</bucketName>
-         <pathStyleAccess>false</pathStyleAccess>
-      </profile>
-   </s3>
-   <mediaConvert>
-      <profile>
-         <id>mediaconvert-default</id>
-         <region>us-east-1</region>
-         <endpoint>https://vasjpylpa.mediaconvert.us-east-1.amazonaws.com</endpoint>
-         <role>arn:aws:iam::922450111604:role/service-role/MediaConvert_Default_Role</role>
-         <queue>arn:aws:mediaconvert:us-east-1:922450111604:queues/Default</queue>
-         <inputPath>crafter-nmusa-v1-us-east-1-blobs-videocenter/videocenter/static-assets/videos/hi-res</inputPath>
-         <template>NMUSA VOD Template</template>
-      </profile>
-   </mediaConvert>
+<aws> 
+  <version>4.0.1</version>  
+  <s3> 
+    <profile> 
+      <id>s3-default</id>  
+      <region>us-east-1</region>  
+      <bucketName>crafter-nmusa-v1-us-east-1-blobs-videocenter</bucketName>  
+      <pathStyleAccess>false</pathStyleAccess> 
+    </profile> 
+  </s3>  
+  <mediaConvert> 
+    <profile> 
+      <id>mediaconvert-default</id>  
+      <region>us-east-1</region>  
+      <endpoint>https://vasjpylpa.mediaconvert.us-east-1.amazonaws.com</endpoint>  
+      <role>arn:aws:iam::922450111604:role/service-role/MediaConvert_Default_Role</role>  
+      <queue>arn:aws:mediaconvert:us-east-1:922450111604:queues/Default</queue>  
+      <inputPath>crafter-nmusa-v1-us-east-1-blobs-videocenter/videocenter/static-assets/videos/hi-res</inputPath>  
+      <template>NMUSA VOD Template</template> 
+    </profile> 
+  </mediaConvert> 
 </aws>
