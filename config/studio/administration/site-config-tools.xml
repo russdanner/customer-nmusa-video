@@ -22,7 +22,6 @@
   ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   ~ SOFTWARE.
   -->
-
 <!--
     Site Configuration Tools
 
@@ -482,6 +481,13 @@
          <label>GraphiQL</label>
          <icon>
             <class>fa-line-chart</class>
+         </icon>
+      </tool>
+      <tool>
+         <name>plugin-management</name>
+         <label>Plugin Management</label>
+         <icon>
+            <class>fa-puzzle-piece</class>
          </icon>
       </tool>
    </tools>
