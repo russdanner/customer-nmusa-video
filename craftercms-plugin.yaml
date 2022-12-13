@@ -12,9 +12,9 @@ plugin:
     - blueprint
     - video center
   version:
-    major: 1
-    minor: 1
-    patch: 36
+    major: 2
+    minor: 0
+    patch: 38
   description: |
     Video Center webapp built with React atop Crafter CMS that is backed by YouTube, AWS Media Service, or Box.
   website:
