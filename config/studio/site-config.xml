@@ -22,7 +22,6 @@
   ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   ~ SOFTWARE.
   -->
-
 <!-- site-config.xml
 
     This contains the primary site configuration.
@@ -41,11 +40,8 @@
 <!-- Global setting would apply to all -->
          <required>false</required>
          <!-- Additional (also optional) specific overrides -->
-
          <!-- <delete-required/> -->
-
          <!-- <bulk-publish-required/> -->
-
          <!-- <publish-by-commit-required/> -->
       </comments>
    </publishing>
@@ -84,13 +80,34 @@
         Items that match the paths specified will be grouped together in the dashboard widget
         -->
       <folders>
-         <folder name="Pages" path="/website" read-direct-children="false" attach-root-prefix="true"/>
-         <folder name="Components" path="/components" read-direct-children="false" attach-root-prefix="true"/>
-         <folder name="Assets" path="/static-assets" read-direct-children="false" attach-root-prefix="false"/>
-         <folder name="Templates" path="/templates" read-direct-children="false" attach-root-prefix="false"/>
-         <folder name="Videos" path="/site/videos" read-direct-children="false" attach-root-prefix="false"/>
-         <folder name="Streams" path="/site/streams" read-direct-children="false" attach-root-prefix="false"/>
-         <folder name="Origins" path="/site/origins" read-direct-children="false" attach-root-prefix="false"/>
+         <folder name="Pages"
+                 path="/website"
+                 read-direct-children="false"
+                 attach-root-prefix="true"/>
+         <folder name="Components"
+                 path="/components"
+                 read-direct-children="false"
+                 attach-root-prefix="true"/>
+         <folder name="Assets"
+                 path="/static-assets"
+                 read-direct-children="false"
+                 attach-root-prefix="false"/>
+         <folder name="Templates"
+                 path="/templates"
+                 read-direct-children="false"
+                 attach-root-prefix="false"/>
+         <folder name="Videos"
+                 path="/site/videos"
+                 read-direct-children="false"
+                 attach-root-prefix="false"/>
+         <folder name="Streams"
+                 path="/site/streams"
+                 read-direct-children="false"
+                 attach-root-prefix="false"/>
+         <folder name="Origins"
+                 path="/site/origins"
+                 read-direct-children="false"
+                 attach-root-prefix="false"/>
       </folders>
       <!-- Item Patterns -->
       <patterns>
@@ -196,4 +213,10 @@
       <staging-url/>
       <live-url/>
    </site-urls>
+   <!--
+Prevent deleting, renaming or cutting root folders of sidebar
+-->
+   <protected-folders-patterns>
+      <pattern>^/([^ !$`&amp;*()/+]|(\\[ !$`&amp;*()+]))+$</pattern>
+   </protected-folders-patterns>
 </site-config>
