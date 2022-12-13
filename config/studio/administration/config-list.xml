@@ -22,7 +22,6 @@
   ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   ~ SOFTWARE.
   -->
-
 <!--
     This file configures the list of configurations available in the SiteConfig section for this site/blueprint.
 
@@ -228,6 +227,13 @@
          <title>Proxy Config</title>
          <description>Proxy Config</description>
          <samplePath>sample-proxy-config.xml</samplePath>
+      </file>
+      <file>
+         <module>studio</module>
+         <path>translation-config.xml</path>
+         <title>confTabTranslationConf</title>
+         <description>confTabTranslationConfDesc</description>
+         <samplePath>sample-translation-config.xml</samplePath>
       </file>
    </files>
 </config>
