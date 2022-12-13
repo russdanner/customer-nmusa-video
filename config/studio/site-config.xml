@@ -29,7 +29,7 @@
 
 -->
 <site-config> 
-  <version>10</version>  
+  <version>4.0.1</version>  
   <wem-project>videocenter</wem-project>  
   <display-name>videocenter</display-name>  
   <locale> 
