@@ -76,7 +76,7 @@
             <id>Taxonomy</id>
             <label>Taxonomy</label>
             <icon id="@mui/icons-material/LocalOfferOutlined"/>
-            <rootPath>/site/taxonomy</rootPath>
+            <rootPath>/site/taxonomies</rootPath>
             <locale>en</locale>
           </configuration>
         </widget>
