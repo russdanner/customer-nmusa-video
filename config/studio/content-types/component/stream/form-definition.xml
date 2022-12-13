@@ -222,6 +222,9 @@
                      <type>boolean</type>
                   </constraint>
                </constraints>
+               <additionalFields>
+                  <id>date_dt_tz</id>
+               </additionalFields>
             </field>
             <field>
                <type>textarea</type>
@@ -490,6 +493,9 @@
                      <type>boolean</type>
                   </constraint>
                </constraints>
+               <additionalFields>
+                  <id>startDate_dt_tz</id>
+               </additionalFields>
             </field>
             <field>
                <type>date-time</type>
@@ -558,6 +564,9 @@
                      <type>boolean</type>
                   </constraint>
                </constraints>
+               <additionalFields>
+                  <id>endDate_dt_tz</id>
+               </additionalFields>
             </field>
          </fields>
       </section>
