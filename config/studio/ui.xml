@@ -274,7 +274,7 @@
       </middleSection>
       <rightSection>
         <widgets>
-          <widget id="craftercms.components.EditModeSwitch"/>
+          <widget id="craftercms.components.EditModesSwitcher"/>
           <widget id="craftercms.components.PublishingStatusButton">
             <configuration>
               <variant>icon</variant>

@@ -113,7 +113,6 @@ class Video extends Component {
     if (totalResults > 0) {
       var video = searchResult.hits[0]._source,
         categories = [],
-        upcomingVideoHero = [],
         channels = Array.isArray(video.channels_o.item) ? video.channels_o.item : [video.channels_o.item];
 
       const videoModel = parseDescriptor(video);
@@ -126,17 +125,28 @@ class Video extends Component {
         //is an upcoming video, won't load player
         // this.props.setHeaderGhost(true);
 
-        upcomingVideoHero.push({
-          url_s: '#',
-          background_s: video.thumbnail_s,
-          title_t: video.title_s,
-          subtitle_s: video.description_html,
-          date_dt: video.startDate_dt
-        });
+        const upcomingVideoHeroData = {
+          background: {
+            value: video.thumbnail_s,
+            fieldId: 'thumbnail_s'
+          },
+          title: {
+            value: video.title_s,
+            fieldId: 'title_s'
+          },
+          subtitle: {
+            value: video.description_html,
+            fieldId: 'description_html'
+          },
+          date: {
+            value: video.startDate_dt,
+            fieldId: 'startDate_dt'
+          }
+        };
 
         // remove video info (if available)
         setVideoInfo(null);
-        this.setState({ hero: upcomingVideoHero });
+        this.setState({ hero: upcomingVideoHeroData });
       } else {
         //is a video (regular video or stream) - will load player
         // remove upcoming stream hero info (if available)

@@ -5,7 +5,6 @@ import { getNav } from '@craftercms/redux';
 
 import Video from './containers/Video/Video.js';
 import Channel from './containers/Channel/Channel.js';
-import Search from './containers/Search/Search.js';
 import List from './containers/List/List.js';
 import ErrorPage from './containers/Errors/errorPage';
 import DynamicRoute from './components/DynamicRoute';
@@ -17,7 +16,6 @@ class Router extends Component {
   }
 
   render() {
-    const { nav } = this.props;
 
     return (
       <Switch>

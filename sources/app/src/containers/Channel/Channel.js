@@ -214,16 +214,23 @@ class Channel extends Component {
   }
 
   renderChannelContent(descriptor) {
-    const channelHero = [];
     const channelContent = descriptor.component;
     const model = parseDescriptor(channelContent);
 
-    channelHero.push({
-      url_s: '#',
-      background_s: channelContent.heroImage_s,
-      title_t: channelContent['internal-name'],
-      subtitle_s: channelContent.description_s
-    });
+    const  channelHeroData= {
+      background: {
+        value: channelContent.heroImage_s,
+        fieldId: 'heroImage_s'
+      },
+      title: {
+        value: channelContent['internal-name'],
+        fieldId: 'internal-name'
+      },
+      subtitle: {
+        value: channelContent.description_s,
+        fieldId: 'description_s'
+      }
+    };
 
     const shouldShowCats = CATEGORIES_KEYS.every(key => this.state.fetchCategories[key]);
 
@@ -234,7 +241,7 @@ class Channel extends Component {
       >
         <Hero
           model={model}
-          data={channelHero}
+          data={channelHeroData}
           localData={true}
         >
         </Hero>
