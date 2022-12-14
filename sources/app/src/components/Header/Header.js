@@ -6,7 +6,7 @@ import { getDescriptor } from '@craftercms/redux';
 import HeaderHolder from './HeaderStyle';
 import HeaderSearch from './HeaderSearch';
 
-import { isNullOrUndefined } from '../../utils';
+import { nou } from '../../utils';
 
 class Header extends Component {
   constructor(props) {
@@ -14,7 +14,7 @@ class Header extends Component {
 
     this.levelDescriptorUrl = '/site/website/crafter-level-descriptor.level.xml';
 
-    if (isNullOrUndefined(props.descriptors[this.levelDescriptorUrl])) {
+    if (nou(props.descriptors[this.levelDescriptorUrl])) {
       this.props.getDescriptor(this.levelDescriptorUrl);
     }
   }

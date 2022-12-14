@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { getDescriptor } from '@craftercms/redux';
+import { parseDescriptor } from '@craftercms/content';
+import { ExperienceBuilder } from '@craftercms/experience-builder/react';
 
 import { setVideoDocked } from '../../actions/videoPlayerActions';
 import { setHeaderGhost } from '../../actions/headerActions';
@@ -8,9 +10,10 @@ import Hero from '../../components/Hero/Hero';
 import VideoCategories from '../../components/VideoCategories/VideoCategories';
 import NotFound from '../Errors/404';
 
-import { isNullOrUndefined } from '../../utils';
+import { nou } from '../../utils';
 import { searchByCategory } from '../../libraries/search';
 import { Constants } from '../../libraries/constants';
+import { isAuthoring } from '../../components/utils';
 
 const CATEGORIES_KEYS = [Constants.FEATURED_VIDEOS, Constants.LATEST_VIDEOS, Constants.RELATED_CHANNELS];
 
@@ -54,7 +57,7 @@ class Channel extends Component {
 
     this.descriptorUrl = `/site/components/channel/${channelName}.xml`;
 
-    if (isNullOrUndefined(this.props.descriptors[this.descriptorUrl])) {
+    if (nou(this.props.descriptors[this.descriptorUrl])) {
       this.props.getDescriptor(this.descriptorUrl);
     }
   }
@@ -213,6 +216,7 @@ class Channel extends Component {
   renderChannelContent(descriptor) {
     const channelHero = [];
     const channelContent = descriptor.component;
+    const model = parseDescriptor(channelContent);
 
     channelHero.push({
       url_s: '#',
@@ -224,8 +228,12 @@ class Channel extends Component {
     const shouldShowCats = CATEGORIES_KEYS.every(key => this.state.fetchCategories[key]);
 
     return (
-      <div>
+      <ExperienceBuilder
+        isAuthoring={isAuthoring()}
+        path={this.descriptorUrl}
+      >
         <Hero
+          model={model}
           data={channelHero}
           localData={true}
         >
@@ -233,14 +241,14 @@ class Channel extends Component {
         {shouldShowCats && (
           <VideoCategories categories={this.buildCategories()} />
         )}
-      </div>
+      </ExperienceBuilder>
     );
   }
 
   render() {
     const { descriptors, descriptorsLoading } = this.props;
 
-    if ((descriptorsLoading[this.descriptorUrl] === false) && isNullOrUndefined(descriptors[this.descriptorUrl])) {
+    if ((descriptorsLoading[this.descriptorUrl] === false) && nou(descriptors[this.descriptorUrl])) {
       return (
         <NotFound />
       );

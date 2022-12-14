@@ -1,7 +1,7 @@
 import { crafterConf } from '@craftercms/classes';
 import { SearchService } from '@craftercms/search';
 
-import { isNullOrUndefined } from '../utils';
+import { nou } from '../utils';
 
 export function searchByCategory(category) {
   const query = SearchService.createQuery('elasticsearch');
@@ -9,11 +9,11 @@ export function searchByCategory(category) {
     'query': category.query
   };
 
-  if (!isNullOrUndefined(category.numResults)) {
+  if (!nou(category.numResults)) {
     queryObj.size = category.numResults;
   }
 
-  if (!isNullOrUndefined(category.sort)) {
+  if (!nou(category.sort)) {
     queryObj.sort = [{
       [category.sort.by]: {
         ...(

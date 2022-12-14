@@ -7,7 +7,7 @@ import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import VideoCategoriesHolder from './VideoCategoriesStyle';
 import Cards from '../Cards/Cards';
 
-import { isNull, isNullOrUndefined } from '../../utils';
+import { isNull, nou } from '../../utils';
 
 class VideoCategories extends Component {
   constructor(props) {
@@ -37,7 +37,7 @@ class VideoCategories extends Component {
   renderArticlesSectionByCategory(category, key, showTitle) {
     let gridElClass;
     const categoryType = category.type ? category.type : 'video-card';
-    const showViewAll = isNullOrUndefined(category.viewAll) ? true : category.viewAll;
+    const showViewAll = nou(category.viewAll) ? true : category.viewAll;
 
     switch (categoryType) {
       case 'video-card':

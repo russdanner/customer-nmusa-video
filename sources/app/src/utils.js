@@ -26,7 +26,7 @@ export function formatDate(studioDate) {
   return dateFormatted;
 }
 
-export function isNullOrUndefined(value) {
+export function nou(value) {
   return value === null || value === undefined;
 };
 
@@ -36,7 +36,7 @@ export function isNull(value) {
 
 export function defaultSearchQuery(category, from = 0, size) {
   let sort = {};
-  if (!isNullOrUndefined(category.sort)) {
+  if (!nou(category.sort)) {
     sort = {
       [category.sort.by]: category.sort.order
     };

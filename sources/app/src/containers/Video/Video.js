@@ -6,6 +6,8 @@ import ReactHtmlParser from 'react-html-parser';
 
 import { getItem, search } from '@craftercms/redux';
 import { SearchService } from '@craftercms/search';
+import { parseDescriptor } from '@craftercms/content';
+import { ExperienceBuilder } from '@craftercms/experience-builder/react';
 
 import NotFound from '../Errors/404';
 import VideoCategories from '../../components/VideoCategories/VideoCategories';
@@ -14,7 +16,8 @@ import Hero from '../../components/Hero/Hero';
 import ModalDialog from '../../components/Modal/Modal';
 import { setVideoInfo, setVideoStatus } from '../../actions/videoPlayerActions';
 import { setHeaderGhost } from '../../actions/headerActions';
-import { pageScrollTop, isNullOrUndefined } from '../../utils';
+import { pageScrollTop, nou } from '../../utils';
+import { isAuthoring } from '../../components/utils';
 
 class Video extends Component {
   state = {
@@ -51,8 +54,8 @@ class Video extends Component {
 
     if (
       (
-        (isNullOrUndefined(searchEntry) && !isNullOrUndefined(newSearchEntry)) ||
-        (!isNullOrUndefined(searchEntry) && !isNullOrUndefined(newSearchEntry))
+        (nou(searchEntry) && !nou(newSearchEntry)) ||
+        (!nou(searchEntry) && !nou(newSearchEntry))
       ) && newProps.searchResults.entries[this.searchId]
     ) {
       this.setVideo(newProps.searchResults.entries[this.searchId]);
@@ -112,6 +115,9 @@ class Video extends Component {
         categories = [],
         upcomingVideoHero = [],
         channels = Array.isArray(video.channels_o.item) ? video.channels_o.item : [video.channels_o.item];
+
+      const videoModel = parseDescriptor(video);
+      this.setState({ videoModel });
 
       var videoStartDate = new Date(video.startDate_dt),
         now = new Date();
@@ -319,31 +325,39 @@ class Video extends Component {
       <div>
         {this.state.notFound && <NotFound />}
 
-        <VideoHolder>
-
-          {this.state && this.state.hero &&
-          <Hero
-            data={this.state.hero}
-            localData={true}
-            hero={true}
-            onChange={() => (this.autoLoadVideo())}
+        {this.state.videoModel &&
+          <ExperienceBuilder
+            isAuthoring={isAuthoring()}
+            path={this.state.videoModel.craftercms.path}
           >
-          </Hero>
-          }
+            <VideoHolder>
 
-          {videoInfo &&
-          this.renderDetailsSection(videoInfo)
-          }
+              {this.state && this.state.hero &&
+              <Hero
+                model={this.state.videoModel}
+                data={this.state.hero}
+                localData={true}
+                hero={true}
+                onChange={() => (this.autoLoadVideo())}
+              >
+              </Hero>
+              }
 
-          {this.state && this.state.categories &&
-          <VideoCategories
-            categories={this.state.categories}
-            exclude={videoInfo}
-          ></VideoCategories>
-          }
+              {videoInfo &&
+              this.renderDetailsSection(videoInfo)
+              }
 
-          {/* <VideoSidebar/>  */}
-        </VideoHolder>
+              {this.state && this.state.categories &&
+              <VideoCategories
+                categories={this.state.categories}
+                exclude={videoInfo}
+              ></VideoCategories>
+              }
+
+              {/* <VideoSidebar/>  */}
+            </VideoHolder>
+          </ExperienceBuilder>
+        }
       </div>
 
     );
