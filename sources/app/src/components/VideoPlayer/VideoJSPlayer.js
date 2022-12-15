@@ -85,11 +85,11 @@ class VideoJSPlayer extends Component {
 
       player.src(multipleSrc);
     } else {
-      if (video.origin_o.item.component.url_s.includes('m3u8')) {   // HLS
-        src = video.origin_o.item.component.url_s;
+      if (video.origin_o.item[0].component.url_s.includes('m3u8')) {   // HLS
+        src = video.origin_o.item[0].component.url_s;
         type = 'application/x-mpegURL'
-      } else if(video.origin_o.item.component.url_s.includes('mpd')) {  // DASH
-        src = video.origin_o.item.component.url_s;
+      } else if(video.origin_o.item[0].component.url_s.includes('mpd')) {  // DASH
+        src = video.origin_o.item[0].component.url_s;
         type = 'application/dash+xml'
       }
 
