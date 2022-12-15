@@ -37,25 +37,25 @@
 
    Every service can require additional properties.
 -->
-<aws> 
-  <version>4.0.1</version>  
-  <s3> 
-    <profile> 
-      <id>s3-default</id>  
-      <region>us-east-1</region>  
-      <bucketName>crafter-nmusa-v1-us-east-1-blobs-videocenter</bucketName>  
-      <pathStyleAccess>false</pathStyleAccess> 
-    </profile> 
-  </s3>  
-  <mediaConvert> 
-    <profile> 
-      <id>mediaconvert-default</id>  
-      <region>us-east-1</region>  
-      <endpoint>https://vasjpylpa.mediaconvert.us-east-1.amazonaws.com</endpoint>  
-      <role>arn:aws:iam::922450111604:role/service-role/MediaConvert_Default_Role</role>  
-      <queue>arn:aws:mediaconvert:us-east-1:922450111604:queues/Default</queue>  
-      <inputPath>crafter-nmusa-v1-us-east-1-blobs-videocenter/videocenter/static-assets/videos/hi-res</inputPath>  
-      <template>NMUSA VOD Template</template> 
-    </profile> 
-  </mediaConvert> 
+<aws>
+  <version>4.0.1</version>
+  <s3>
+    <profile>
+      <id>s3-default</id>
+      <region>us-east-1</region>
+      <bucketName>crafter-nmusa-v1-us-east-1-blobs-videocenter</bucketName>
+      <pathStyleAccess>false</pathStyleAccess>
+    </profile>
+  </s3>
+  <mediaConvert>
+    <profile>
+      <id>mediaconvert-default</id>
+      <region>us-east-1</region>
+      <endpoint>https://vasjpylpa.mediaconvert.us-east-1.amazonaws.com</endpoint>
+      <role>arn:aws:iam::922450111604:role/service-role/MediaConvert_Default_Role</role>
+      <queue>arn:aws:mediaconvert:us-east-1:922450111604:queues/Default</queue>
+      <inputPath>crafter-nmusa-v1-us-east-1-blobs-videocenter/videocenter/static-assets/videos/hi-res</inputPath>
+      <template>NMUSA VOD Template</template>
+    </profile>
+  </mediaConvert>
 </aws>

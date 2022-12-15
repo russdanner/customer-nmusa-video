@@ -23,34 +23,34 @@
   ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   ~ SOFTWARE.
   -->
-<site> 
-  <version>4.0.1</version>  
-  <!-- SPA -->  
-  <spa> 
-    <enabled>true</enabled>  
-    <viewName>/</viewName> 
-  </spa>  
-  <!-- CORS Properties -->  
-  <cors> 
-    <enable>true</enable>  
-    <accessControlMaxAge>3600</accessControlMaxAge>  
-    <accessControlAllowOrigin>*</accessControlAllowOrigin>  
-    <accessControlAllowMethods>GET\, POST\, PUT\, OPTIONS</accessControlAllowMethods>  
-    <accessControlAllowHeaders>Content-Type</accessControlAllowHeaders>  
-    <accessControlAllowCredentials>true</accessControlAllowCredentials> 
-  </cors>  
-  <!-- Navigation properties -->  
-  <navigation> 
-    <additionalFields>reactComponent_s</additionalFields> 
-  </navigation>  
-  <filters> 
-    <filter> 
-      <script>/scripts/filters/BasicAuth.groovy</script>  
-      <mapping> 
-        <include>/**</include>  
-        <exclude>/api/**</exclude>  
-        <exclude>/static-assets/**</exclude> 
-      </mapping> 
-    </filter> 
-  </filters> 
+<site>
+  <version>4.0.1</version>
+  <!-- SPA -->
+  <spa>
+    <enabled>true</enabled>
+    <viewName>/</viewName>
+  </spa>
+  <!-- CORS Properties -->
+  <cors>
+    <enable>true</enable>
+    <accessControlMaxAge>3600</accessControlMaxAge>
+    <accessControlAllowOrigin>*</accessControlAllowOrigin>
+    <accessControlAllowMethods>GET\, POST\, PUT\, OPTIONS</accessControlAllowMethods>
+    <accessControlAllowHeaders>Content-Type</accessControlAllowHeaders>
+    <accessControlAllowCredentials>true</accessControlAllowCredentials>
+  </cors>
+  <!-- Navigation properties -->
+  <navigation>
+    <additionalFields>reactComponent_s</additionalFields>
+  </navigation>
+  <filters>
+    <filter>
+      <script>/scripts/filters/BasicAuth.groovy</script>
+      <mapping>
+        <include>/**</include>
+        <exclude>/api/**</exclude>
+        <exclude>/static-assets/**</exclude>
+      </mapping>
+    </filter>
+  </filters>
 </site>

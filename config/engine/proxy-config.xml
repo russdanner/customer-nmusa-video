@@ -29,36 +29,36 @@
             </patterns>
         </server>
 -->
-<proxy-config> 
-  <version>4.0.1</version>  
-  <servers> 
-    <server> 
-      <id>static-assets</id>  
-      <url/>  
-      <patterns> 
-        <pattern>/static-assets/.*</pattern> 
-      </patterns> 
-    </server>  
-    <server> 
-      <id>graphql</id>  
-      <url/>  
-      <patterns> 
-        <pattern>/api/1/site/graphql.*</pattern> 
-      </patterns> 
-    </server>  
-    <server> 
-      <id>engine</id>  
-      <url/>  
-      <patterns> 
-        <pattern>/api/.*</pattern> 
-      </patterns> 
-    </server>  
-    <server> 
-      <id>preview</id>  
-      <url/>  
-      <patterns> 
-        <pattern>.*</pattern> 
-      </patterns> 
-    </server> 
-  </servers> 
+<proxy-config>
+  <version>4.0.1</version>
+  <servers>
+    <server>
+      <id>static-assets</id>
+      <url/>
+      <patterns>
+        <pattern>/static-assets/.*</pattern>
+      </patterns>
+    </server>
+    <server>
+      <id>graphql</id>
+      <url/>
+      <patterns>
+        <pattern>/api/1/site/graphql.*</pattern>
+      </patterns>
+    </server>
+    <server>
+      <id>engine</id>
+      <url/>
+      <patterns>
+        <pattern>/api/.*</pattern>
+      </patterns>
+    </server>
+    <server>
+      <id>preview</id>
+      <url/>
+      <patterns>
+        <pattern>.*</pattern>
+      </patterns>
+    </server>
+  </servers>
 </proxy-config>
