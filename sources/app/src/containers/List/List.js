@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { ExperienceBuilder } from '@craftercms/experience-builder/react';
 
 import { setVideoDocked } from '../../actions/videoPlayerActions';
 import VideoCategories from '../../components/VideoCategories/VideoCategories.js';
+import { isAuthoring } from '../../components/utils';
 
 class Channel extends Component {
   componentWillMount() {
@@ -56,11 +58,14 @@ class Channel extends Component {
 
   render() {
     return (
-      <div>
+      <ExperienceBuilder
+        isAuthoring={isAuthoring()}
+        path="/site/website/index.xml"
+      >
         {this.state && this.state.categories &&
           <VideoCategories categories={this.state.categories} />
         }
-      </div>
+      </ExperienceBuilder>
     );
   }
 }

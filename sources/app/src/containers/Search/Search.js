@@ -6,7 +6,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import SearchHolder from './SearchStyle';
 import VideoCategories from '../../components/VideoCategories/VideoCategories';
 import { setVideoDocked } from '../../actions/videoPlayerActions';
-import { isNullOrUndefined } from '../../utils';
+import { nou } from '../../utils';
 
 const WAIT_INTERVAL = 1000;
 
@@ -46,7 +46,7 @@ class Search extends Component {
   }
 
   setCategories(searchId) {
-    let searchKeyword = isNullOrUndefined(searchId) ? '' : searchId;
+    let searchKeyword = nou(searchId) ? '' : searchId;
 
     const fields = ['title_t^1.5', 'description_html^1', 'tags_o.item.value_smv^1'];
     let query = {};

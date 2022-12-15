@@ -7,7 +7,7 @@ import { setHeaderGhost } from '../../actions/headerActions';
 import Slider from '../../components/Slider/Slider';
 import VideoCategories from '../../components/VideoCategories/VideoCategories';
 
-import { isNullOrUndefined } from '../../utils';
+import { nou } from '../../utils';
 import { searchByCategory } from '../../libraries/search';
 import { Constants } from '../../libraries/constants';
 
@@ -26,7 +26,7 @@ class Home extends Component {
 
     this.descriptorUrl = '/site/website/index.xml';
 
-    if (isNullOrUndefined(this.props.descriptors[this.descriptorUrl])) {
+    if (nou(this.props.descriptors[this.descriptorUrl])) {
       this.props.getDescriptor(this.descriptorUrl);
     }
   }

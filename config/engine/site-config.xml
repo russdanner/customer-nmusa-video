@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <!--
   ~ MIT License
   ~
@@ -23,34 +24,33 @@
   ~ SOFTWARE.
   -->
 <site>
-	<version>2</version>
-<!-- SPA -->
-   <spa>
-      <enabled>true</enabled>
-      <viewName>/</viewName>
-   </spa>
-   <!-- CORS Properties -->
-   <cors>
-      <enable>true</enable>
-      <accessControlMaxAge>3600</accessControlMaxAge>
-      <accessControlAllowOrigin>*</accessControlAllowOrigin>
-      <accessControlAllowMethods>GET\, POST\, PUT\, OPTIONS</accessControlAllowMethods>
-      <accessControlAllowHeaders>Content-Type</accessControlAllowHeaders>
-      <accessControlAllowCredentials>true</accessControlAllowCredentials>
-   </cors>
-   <!-- Navigation properties -->
-   <navigation>
-      <additionalFields>reactComponent_s</additionalFields>
-   </navigation>
-   
-   <filters>
+  <version>4.0.1</version>
+  <!-- SPA -->
+  <spa>
+    <enabled>true</enabled>
+    <viewName>/</viewName>
+  </spa>
+  <!-- CORS Properties -->
+  <cors>
+    <enable>true</enable>
+    <accessControlMaxAge>3600</accessControlMaxAge>
+    <accessControlAllowOrigin>*</accessControlAllowOrigin>
+    <accessControlAllowMethods>GET\, POST\, PUT\, OPTIONS</accessControlAllowMethods>
+    <accessControlAllowHeaders>Content-Type</accessControlAllowHeaders>
+    <accessControlAllowCredentials>true</accessControlAllowCredentials>
+  </cors>
+  <!-- Navigation properties -->
+  <navigation>
+    <additionalFields>reactComponent_s</additionalFields>
+  </navigation>
+  <filters>
     <filter>
-        <script>/scripts/filters/BasicAuth.groovy</script>
-        <mapping>
-            <include>/**</include>
-            <exclude>/api/**</exclude>
-            <exclude>/static-assets/**</exclude>
-        </mapping>
+      <script>/scripts/filters/BasicAuth.groovy</script>
+      <mapping>
+        <include>/**</include>
+        <exclude>/api/**</exclude>
+        <exclude>/static-assets/**</exclude>
+      </mapping>
     </filter>
-</filters>
+  </filters>
 </site>
