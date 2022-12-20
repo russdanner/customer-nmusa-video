@@ -518,12 +518,12 @@
                <properties>
                   <property>
                      <name>width</name>
-                     <value>{ "exact":"410", "min":"", "max":"" }</value>
+                     <value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
                      <type>range</type>
                   </property>
                   <property>
                      <name>height</name>
-                     <value>{ "exact":"363", "min":"", "max":"" }</value>
+                     <value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
                      <type>range</type>
                   </property>
                   <property>
